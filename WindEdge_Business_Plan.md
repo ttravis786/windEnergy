@@ -819,11 +819,11 @@ The founding team requires a specific combination of expertise not commonly foun
 - Responsibilities: Fundraising, financial modelling, project finance from Series A
 - Salary: £70,000 + equity
 
-**Ye He — Founding Engineer and Technical Advisor**
-2nd year PhD student at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building complete GPU-accelerated analysis workflows for large-scale datasets across the CMS collaboration. Her direct experience designing and operating high-performance GPU pipelines is directly applicable to WindEdge's GPU marketplace infrastructure and EMS integration. She contributes as a technical advisor on GPU architecture, workflow design, and HPC pipeline optimisation.
-
 **Linus Deluca-Perry — Co-Founder and Founding Business Strategist**
 Business Analyst at BlackRock's Transformations Office, where he leads large-scale change programmes across the firm, managing significant workstreams and becoming a subject matter expert across complex business areas. Physics BSc from Imperial College London. He is also the founder of LDP Solar, where he developed and patented an elevated agri-solar mounting system enabling dual land use — demonstrating the ability to take a technical idea from concept to patent application to commercial pilot independently. His execution track record at BlackRock and his hands-on experience founding a renewable energy technology company give WindEdge a commercial lead with both institutional credibility and entrepreneurial proof. He leads commercial strategy, investor relations, and business development.
+
+**Ye He — Founding Engineer and Technical Advisor**
+2nd year PhD student at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building complete GPU-accelerated analysis workflows for large-scale datasets across the CMS collaboration. Her direct experience designing and operating high-performance GPU pipelines is directly applicable to WindEdge's GPU marketplace infrastructure and EMS integration. She contributes as a technical advisor on GPU architecture, workflow design, and HPC pipeline optimisation.
 
 ### 11.2 Hiring Plan
 

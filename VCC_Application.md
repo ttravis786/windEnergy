@@ -158,9 +158,9 @@ No IP protection filed to date. The primary candidate is a patent on WindEdge's 
 
 **Sulayman Awan, CTO and Co-Founder.** 2nd year PhD student in particle physics at CERN (Imperial College London). Sulayman's research is a model-agnostic search for anomalous high-multiplicity particle events consistent with SUEPs (Soft Unclustered Energy Patterns), a dark matter candidate class, using a Graph Transformer neural network on raw detector energy deposits combined with ABCDDisco — a pioneering data-driven background estimation method. This places him at the frontier of ML applied to science: building systems to find signals conventional methods cannot see. Beyond his physics research, Sulayman completed two industry internships: quantitative research at Moore Capital on futures strategies and interest rate swaps, and carbon trading strategy at Altana Wealth — giving him direct expertise in how carbon is priced, structured, and traded. This is directly relevant to WindEdge's green compute premium, carbon attribution methodology, and the growing market for verifiable Scope 2 reduction. He leads WindEdge's EMS algorithm, infrastructure platform, and site commissioning.
 
-**Ye He, Founding Engineer and Technical Advisor.** 2nd year PhD student at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building a complete analysis workflow designed for broad use across the collaboration, handling large-scale datasets that rely heavily on GPU-accelerated computing. This direct experience with high-performance GPU pipelines is what draws her to WindEdge and shapes her technical contribution.
-
 **Linus Deluca-Perry, Co-Founder and Founding Business Strategist.** Business Analyst at BlackRock's Transformations Office, where he leads large-scale change programmes across the firm, becoming a subject matter expert and managing significant workstreams end-to-end. Physics BSc from Imperial College London. He is also the founder of LDP Solar, where he developed a patented elevated agri-solar mounting system — demonstrating the ability to take a technical idea from concept to patent to commercial pilot. His execution track record at one of the world's largest asset managers and his hands-on experience founding and commercialising a renewable energy technology company make him the team's commercial anchor.
+
+**Ye He, Founding Engineer and Technical Advisor.** 2nd year PhD student at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building a complete analysis workflow designed for broad use across the collaboration, handling large-scale datasets that rely heavily on GPU-accelerated computing. This direct experience with high-performance GPU pipelines is what draws her to WindEdge and shapes her technical contribution.
 
 Together, the founding team combines deep HPC and GPU pipeline expertise, energy markets knowledge, large-scale project execution from BlackRock, and the mathematical rigour of fundamental physics research — covering every domain the business requires.
 
@@ -170,8 +170,8 @@ Together, the founding team combines deep HPC and GPU pipeline expertise, energy
 
 - **Thomas Travis:** [X weeks], part-time alongside PhD
 - **Sulayman Awan:** [X weeks], part-time alongside PhD
-- **Ye He:** [X weeks], part-time alongside PhD
 - **Linus Deluca-Perry:** [X weeks], part-time alongside BlackRock role
+- **Ye He:** [X weeks], part-time alongside PhD
 
 ---
 
