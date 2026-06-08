@@ -1,0 +1,25 @@
+name: Deploy website to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'website/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Push to ttravis786.github.io
+        run: |
+          git config --global user.email "tomtravis2001@gmail.com"
+          git config --global user.name "Thomas Travis"
+          git clone https://x-access-token:${{ secrets.PAGES_DEPLOY_TOKEN }}@github.com/ttravis786/ttravis786.github.io.git pages-repo
+          cp -r website/. pages-repo/
+          cd pages-repo
+          git add -A
+          git diff --cached --quiet || git commit -m "Deploy website from WindDataCentres"
+          git push
