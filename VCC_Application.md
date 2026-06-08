@@ -48,7 +48,7 @@ Scotland discards over 900GWh of wind electricity annually — grid operators pa
 
 ### Solution
 
-WindEdge deploys modular containerised data centres directly at Scottish wind farm substations, consuming electricity that would otherwise be discarded. Connecting behind the turbine meter gives access to energy at £5–20/MWh — 85% below grid rate. Scotland's average 8°C ambient temperature eliminates most cooling cost, achieving a Power Usage Effectiveness of 1.05 versus the industry average of 1.58. A proprietary optimisation algorithm continuously manages battery charging, wind power consumption, and load distribution relative to forecast energy production and market prices, delivering 99.9% uptime for customers despite intermittent wind. Customers receive compute 15–25% below market price with real-time, verifiable at-source renewable credentials.
+WindEdge operates as a build-and-manage service: we design 100kW modular GPU facilities for wind farm operators, landowners, and private investors who want AI infrastructure exposure without building a full data centre. We charge a fixed build fee and take 10% of ongoing GPU revenue to manage how compute is sold. Clients own the hardware; WindEdge provides the EMS algorithm and GPU marketplace management. A self-funded pilot — 4 × RTX 5090 GPUs at ~£10,000 total, listed on Vast.ai — proves the revenue model before any investor capital is deployed. Real data then enables direct contracted relationships with startups, universities, and enterprises. The best sites are then owned directly by WindEdge, capturing 100% of revenue.
 
 ---
 
@@ -60,7 +60,9 @@ WindEdge deploys modular containerised data centres directly at Scottish wind fa
 
 ### Customer Discovery
 
-Customer discovery is ongoing at pre-incorporation stage. As daily operators of large-scale distributed computing infrastructure at CERN — submitting HTCondor jobs across CPU and GPU clusters on the CERN Worldwide LHC Computing Grid — the founding team has direct, first-hand experience of the pain points facing HPC customers: GPU scarcity, high compute cost, and increasing institutional pressure to demonstrate sustainable operations. Conversations within the CERN and university research computing community confirmed that energy cost and green credentials are priority concerns for HPC procurement decisions. Primary target customers identified: enterprise sustainability leads facing UK SDR reporting from 2026, public sector and research institutions under net-zero mandates, and AI and HPC teams requiring cost-effective GPU compute with verifiable renewable provenance.
+Customer discovery conducted with [X] individuals including two senior institutional HPC leads. Prof David Colling (HPC lead, Imperial Particle Physics) and Prof Mitesh Patel (Head of Imperial PP) currently own and operate GPU/CPU clusters in a university data centre — representative of research institutions that bear full infrastructure costs (electricity, cooling, hardware refresh) rather than using external providers. Key questions explored: annual running costs, electricity rate paid, carbon reporting pressure from UKRI/Horizon grants, appetite for relocating or co-investing in a wind-adjacent facility offering lower running costs and verifiable green provenance. [INSERT FINDINGS]. Primary insight: [e.g. electricity and cooling cost is X; green credentials matter for Y grants; would consider wind-adjacent facility if SLA and latency requirements met]. Target customers: research institutions owning compute, enterprise sustainability leads, AI/HPC teams, private investors.
+
+— FILL IN BRACKETED FIELDS AFTER CONVERSATIONS. CHECK TOTAL IS UNDER 750 CHARACTERS BEFORE SUBMITTING. —
 
 ---
 
@@ -86,7 +88,7 @@ The core technical architecture, electrical topology, optimisation algorithm con
 
 ### Progress / Traction
 
-At concept stage. Completed to date: comprehensive 5-year financial model with per-site unit economics demonstrating 76% EBITDA margin at steady state; full technical architecture covering electrical topology, battery sizing, connectivity strategy, and load management system design; Scottish planning and grid connection regulatory mapping including SSEN connection process timelines and Scottish permitted development analysis; IP strategy identifying the optimisation algorithm as the primary patent candidate and trademark registration plan; competitive landscape confirming no direct UK competitor; and identification of priority wind farm operator targets (SSE Renewables, Vattenfall, RWE) and anchor tenant prospects including EPCC Edinburgh and Scottish Government Digital. No revenue, external funding, or filed IP to date.
+Completed: full technical architecture; EMS algorithm concept and specification; Scottish planning and grid connection regulatory mapping; IP strategy with patent candidate identified; competitive landscape confirming no direct UK competitor; wind farm operator targets identified. Immediate next step: self-funded pilot — purchasing 4 × RTX 5090 GPUs (~£2,500 each = ~£10,000 total) and listing on Vast.ai to generate real GPU revenue data. Initial customers are anonymous marketplace renters; real revenue data then opens direct contracted relationships with tech startups, university research teams, and AI companies needing reserved capacity. This pilot de-risks the core revenue assumption and transforms the fundraise from concept to validated thesis. No external funding or filed IP to date.
 
 ---
 

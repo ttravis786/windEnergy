@@ -34,33 +34,36 @@
 
 ### The Business
 
-WindEdge Data Centres Ltd is a Scottish infrastructure company deploying small, modular data centres directly adjacent to wind turbine substations. By consuming electricity at the point of generation — before it enters the transmission grid — WindEdge accesses power at 80–95% below retail rates, achieves near-zero carbon compute, and eliminates the UK's single largest data centre cost component: energy.
+WindEdge Data Centres Ltd operates in two complementary ways. First, as a **build-and-manage service**: WindEdge designs and commissions small modular GPU data centres (100 kW, ~60 GPUs) for clients — wind farm operators, landowners, and investors — charging a fixed build fee and a 10% ongoing revenue share for managing how compute is sold on GPU marketplaces. Second, as a **direct operator**: WindEdge owns and operates facilities at the highest-curtailment wind farm sites, capturing 100% of revenue at those locations. The business starts asset-light, bootstrapped by a small GPU pilot, and migrates toward direct ownership as proof of concept is established.
 
 ### The Insight
 
-Scotland curtailed **over 900 GWh of wind electricity in 2023** — power that was generated and immediately discarded because the transmission grid could not carry it south. Wind farm operators were paid **over £700 million** in constraint payments that year to switch their turbines off. This is not an edge case; curtailment is structurally worsening as Scotland's wind capacity grows far faster than grid upgrade timelines. WindEdge converts that stranded asset into a persistent, scalable revenue stream.
+Scotland curtailed **over 900 GWh of wind electricity in 2023** — power that was generated and immediately discarded because the transmission grid could not carry it south. Wind farm operators were paid **over £700 million** in constraint payments that year to switch their turbines off. This is not an edge case; curtailment is structurally worsening as Scotland's wind capacity grows far faster than grid upgrade timelines. The key insight is that the energy cost advantage — accessing curtailed wind at an estimated £5–20/MWh versus £100–140/MWh on the grid — dramatically improves the economics of GPU compute, creating a product that is both cheaper and greener than any grid-connected competitor.
 
-### Why This Works
+### The Phased Approach
 
-Three forces converge to make this viable right now:
-
-- **Energy arbitrage**: Curtailed wind negotiated at £5–20/MWh versus £80–120/MWh on the open market creates a structural cost moat no grid-connected competitor can match
-- **Green compute premium**: Enterprise customers facing mandatory Scope 2 emissions reporting will pay 10–25% above market rates for compute with verifiable, at-source renewable provenance — Power Purchase Agreements, not Renewable Energy Certificates
-- **Scotland's climate**: Average ambient temperature of 8°C eliminates the majority of data centre cooling cost, reducing Power Usage Effectiveness (PUE) to 1.05–1.10 vs. industry average of 1.58
+- **Phase 0 (now)**: Buy 4 RTX 5090 GPUs (~£2,500 each = ~£10,000 total), list on Vast.ai and RunPod marketplace. Proves GPU marketplace revenue with no investor capital. Estimated payback ~2–4 months. Real revenue data then opens direct client conversations — tech startups, university research teams, AI companies — moving beyond anonymous hourly marketplace listings to contracted capacity.
+- **Phase 1 (Year 1–2)**: Build-and-manage service. Clients fund the hardware; WindEdge charges a build fee (£40–80k) and 10% of ongoing GPU revenue. Asset-light, fast to scale.
+- **Phase 2 (Year 2–3)**: Use build fee revenue and a small raise (£300–600k) to own 2–3 facilities directly at the highest-curtailment Scottish wind sites. These owned sites capture 100% of revenue.
+- **Phase 3 (Year 3+)**: Mixed portfolio — managed facilities provide recurring income; owned facilities generate the majority of profit.
 
 ### The Ask
 
-WindEdge is seeking **£2.4 million in seed funding** to deploy its first two pilot sites in Q1 2027, validate the energy partnership model, and secure anchor tenants. A Series A of **£18 million** in 2028 will fund the first ten-site portfolio and establish the managed compute platform.
+WindEdge is seeking **£300,000–600,000** in seed funding to own and operate its first 1–2 wind-adjacent facilities directly, having already validated the GPU marketplace model through the Phase 0 pilot. This is significantly less capital than the original model required, with substantially lower risk.
 
-### Headline Numbers (5-Year Forecast)
+### Headline Numbers (5-Year Forecast, Author Model)
 
 | Metric | Year 1 | Year 2 | Year 3 | Year 5 |
 |--------|--------|--------|--------|--------|
-| Sites operational | 0 (build) | 2 | 6 | 20 |
-| IT load capacity (MW) | — | 2 | 6 | 20 |
-| Revenue | £0 | £680k | £2.1m | £8.4m |
-| EBITDA | -£420k | £90k | £780k | £4.1m |
-| Headcount | 4 | 8 | 18 | 45 |
+| Managed facilities | 0 | 3 | 10 | 30 |
+| Owned facilities | 0 | 1 | 2 | 5 |
+| Build fee revenue | £0 | £180k | £600k | £1,125k |
+| Recurring managed revenue (10%) | £0 | £45k | £250k | £900k |
+| Owned facility revenue | £0 | £180k | £400k | £1,500k |
+| **Total Revenue** | **~£25–65k*** | **~£405k** | **~£1,250k** | **~£3,525k** |
+| Headcount | 2 | 4 | 10 | 25 |
+
+*Phase 0 pilot GPU revenue only (4 × RTX 5090). All figures are author model estimates — see Appendix F.*
 
 ---
 
@@ -276,89 +279,86 @@ There are analogues in Iceland (geothermal-adjacent compute) and Norway (hydro-a
 - Sales cycle: 18–36 months
 - Priority targets: BT Wholesale, Vodafone Business
 
+**Segment 5: Private Investors / Asset Owners**
+- Profile: High-net-worth individuals, family offices, angels, small funds who want exposure to the AI infrastructure asset class but cannot afford a hyperscale data centre (£50m+)
+- Buying trigger: A 100 kW facility at ~£200–350k all-in is an accessible, tangible asset that generates monthly GPU income with no operational involvement; renewable infrastructure also appeals to ESG-conscious private capital
+- Deal size: One facility per client (~£200–350k capex funded by investor); WindEdge earns the build fee + 10% ongoing revenue share
+- Sales cycle: 1–3 months (faster than enterprise; decision is personal capital not committee approval)
+- Priority targets: Tech-sector angels, energy-sector family offices, property investors seeking yield from a new asset class
+- Why it works: The investor funds the hardware; WindEdge provides the expertise, algorithm, and marketplace relationships. The investor owns a real, depreciating asset generating real cash flow — not a software licence.
+
 ---
 
 ## 6. Business Model & Revenue Streams
 
-### 6.1 Revenue Streams
+WindEdge operates a three-stream model that evolves in phases. All financial figures below are author model estimates and have not been validated against operational data — see Appendix F.
 
-#### Stream 1: Colocation (Primary, ~50% of revenue)
+### 6.1 Stream A: Phase 0 Pilot — GPU Marketplace (Bootstrapped)
 
-Customers rent physical rack space, power, and connectivity within WindEdge containers. Pricing is per kilowatt of committed power draw.
+Before approaching any investors or wind farm operators, WindEdge validates the GPU revenue model with a small self-funded pilot.
 
-- **Price**: £150–200/kW/month (vs. market rate £180–250 for equivalent spec)
-- **WindEdge advantage**: 10–20% below market on price, plus green premium justification
-- **Contract terms**: 12–36 month minimum, preferred 3-year with CPI uplift
-- **SLA**: 99.95% uptime, backed by battery + grid tie
-- **Target utilisation**: 70% by end of Year 2 per site
+- **Hardware**: 4 × NVIDIA RTX 5090 GPUs (~£2,500 each = ~£10,000 total)
+- **Platforms**: Vast.ai, RunPod — list GPUs for rent by the hour on the open marketplace
+- **Estimated revenue**: ~£1.00–2.50/GPU/hour at 65–75% utilisation (verify current rates on platform before committing)
+- **Estimated annual revenue (4 GPUs)**: ~£25,000–65,000 [🔴 author estimate — verify on Vast.ai]
+- **Estimated payback**: ~2–4 months [🔴 author estimate]
+- **Purpose**: Proves GPU marketplace revenue with real operational data before any wind farm build
+- **Customer escalation**: Start on anonymous marketplace (no sales effort); use revenue data to move to direct contracted relationships with tech startups, university research computing teams, and AI companies needing reserved capacity
 
-#### Stream 2: Managed HPC / GPU Clusters (Secondary, ~25% of revenue)
+### 6.2 Stream B: Build-and-Manage Service (Asset-Light, Scalable)
 
-WindEdge owns and operates GPU servers rented to customers by the hour or month. Customers get managed infrastructure without capex.
+WindEdge designs, commissions, and manages 100 kW modular GPU data centres for clients. The client owns the hardware; WindEdge provides the expertise and the ongoing management.
 
-- **Hardware**: NVIDIA H100/H200 clusters, InfiniBand fabric
-- **Pricing**: £3.50–6.00/GPU/hour (vs. AWS p4d at £8–12/hour equivalent)
-- **Target customers**: AI labs, universities, film/VFX, genomics
-- **Advantage**: 40–50% cheaper than hyperscalers; green credentials; UK data sovereignty
+**What WindEdge delivers:**
+1. Standard 100 kW facility design (container, battery, electrical connection, networking)
+2. EMS algorithm — optimises battery charge/discharge between wind, grid, and GPU load in real time
+3. GPU marketplace management — listing, dynamic pricing, uptime monitoring across Vast.ai / RunPod etc.
+4. NOC remote monitoring from Edinburgh
+5. Regular performance reporting and algorithm updates
 
-#### Stream 3: Flexible Mining / Algorithmic Trading Infrastructure (~15% of revenue)
+**Revenue per managed facility:**
 
-When wind supply exceeds Priority 1–3 demand, surplus power is absorbed by crypto mining rigs or high-frequency trading infrastructure that can be turned on/off within seconds. This is not WindEdge's primary business — it is the demand balancing mechanism that keeps energy costs low and earns marginal additional revenue.
+| Item | Amount | Timing |
+|------|--------|--------|
+| Build fee (design, project management, commissioning) | £40,000–80,000 | One-off on completion |
+| Ongoing revenue share | 10% of gross GPU revenue | Monthly |
 
-- **Mining revenue**: Variable; modelled conservatively at £30–50/MWh consumed
-- **Purpose**: Maintains high asset utilisation; improves energy cost averaging across all revenue streams
-- **Note**: This stream is optional and can be removed/reduced if regulatory environment changes
+**Estimated ongoing revenue per 100 kW managed facility:**
+- ~60 RTX 5090-class GPUs
+- Estimated GPU revenue: £120,000–350,000/year [🔴 highly variable — depends on GPU model, platform rates, and utilisation. Verify on Vast.ai before presenting to clients]
+- WindEdge 10% share: **£12,000–35,000/year per facility** [🔴 author estimate]
 
-#### Stream 4: Grid Demand Response / Balancing Services (~10% of revenue)
+**Why clients pay:**
+Without WindEdge, a wind farm operator or landowner with a substation and some land cannot convert that into GPU revenue. WindEdge provides the entire stack — design, build, algorithm, marketplace. The 10% fee buys them a passive income stream with no operational involvement.
 
-National Grid ESO pays aggregators and large consumers to flex their load on demand (Demand Flexibility Service, Firm Frequency Response). WindEdge's distributed, software-controlled load is ideal.
+### 6.3 Stream C: Owned Facilities (High Margin, Long-Term)
 
-- **Revenue**: £50–150/MWh of flexibility offered
-- **Volume**: Modest per site, but at 20 sites the aggregate is material
-- **Mechanism**: Register with National Grid ESO as a demand response aggregator; automate via load management software
+At the 2–3 highest-curtailment wind sites, WindEdge owns and operates facilities directly, capturing 100% of GPU revenue rather than 10%. These are funded from accumulated build fees and a small equity raise.
 
-### 6.2 Pricing Philosophy
-
-WindEdge is not the cheapest option — it is the best value. Pricing is set at 10–20% below comparable grid-connected UK providers, leaving room to absorb the green premium customers are willing to pay. The energy cost advantage means WindEdge's gross margins are higher at these prices than competitors charging more.
-
-### 6.3 Unit Economics (Per 1 MW Site, Steady State Year 3+)
-
-#### Revenue
-
-| Stream | Basis | Annual |
-|--------|-------|--------|
-| Colocation (700 kW @ £175/kW/month) | 70% utilisation | £1,470,000 |
-| Managed GPU (200 kW, 60% util @ £4.50/GPU-hr) | ~100 GPUs | £473,000 |
-| Flexible mining (100 kW average) | £40/MWh avg | £35,000 |
-| Demand response | Estimated | £28,000 |
-| **Total Revenue** | | **£2,006,000** |
-
-#### Operating Costs
+**Unit economics per owned 100 kW facility (steady state):** [🔴 all author estimates]
 
 | Item | Annual |
 |------|--------|
-| Energy (curtailed wind, ~700 MWh/month @ £15/MWh) | £126,000 |
-| Energy (grid backup, ~10% hours @ £100/MWh) | £88,000 |
-| Connectivity (dark fibre or microwave) | £36,000 |
-| Site lease (wind farm land) | £24,000 |
-| Remote hands / local O&M | £45,000 |
-| Insurance | £18,000 |
-| Software licences (DCIM, monitoring) | £12,000 |
-| **Total Opex** | **£349,000** |
+| GPU revenue (~60 GPUs, 70% util) | £150,000–300,000 |
+| Energy cost (curtailed wind, estimated £15/MWh) | £13,000 |
+| Energy cost (grid backup, 10% hours) | £8,000 |
+| Connectivity | £18,000 |
+| Site lease | £12,000 |
+| O&M | £15,000 |
+| **EBITDA** | **£84,000–234,000** |
 
-#### EBITDA
+*Wide range reflects uncertainty in GPU pricing and utilisation. Phase 0 pilot data will narrow this significantly.*
 
-| | Annual |
-|-|--------|
-| Revenue | £2,006,000 |
-| Opex | £349,000 |
-| Central overhead allocation | £120,000 |
-| **EBITDA** | **£1,537,000** |
-| **EBITDA Margin** | **76.6%** |
-| Depreciation (hardware 5yr, containers 10yr) | £380,000 |
-| **EBIT** | **£1,157,000** |
+### 6.4 Why This Structure Is Better Than Full Asset Ownership
 
-*Note: These are steady-state Year 3+ figures. Year 1 per-site EBITDA will be lower (~£200k) due to ramp-up and below-target utilisation.*
+| | Original model | New model |
+|--|---------------|-----------|
+| Capital to start | £2,400,000 | ~£25,000 |
+| Time to first revenue | 18+ months | Weeks |
+| Hardware risk | WindEdge | Client (managed stream) |
+| Revenue per facility | 100% | 10% managed / 100% owned |
+| Scale mechanism | Raise equity | Build fees fund next build |
+| Proof of concept | Requires investor capital | Self-fundable |
 
 ---
 
@@ -542,38 +542,49 @@ Energy management is WindEdge's core operational differentiator. The Energy Mana
 
 ## 9. Go-to-Market Strategy
 
+### 9.0 Phase 0 — Bootstrap (Now, Before Any Funding)
+
+**Objective**: Prove GPU marketplace revenue with self-funded pilot. Generate real data to de-risk the investor conversation.
+
+**Actions:**
+- Purchase 4 × RTX 5090 GPUs (~£2,500 each = ~£10,000 total)
+- Register as a provider on Vast.ai and RunPod
+- Run GPUs 24/7, monitor utilisation and revenue per GPU-hour
+- Document everything: uptime, revenue, customer types, demand patterns
+- Target: 3 months of operational data showing real $/GPU/hour and utilisation rates
+
+**Customer escalation during Phase 0:**
+- Months 1–3: Anonymous marketplace listings on Vast.ai / RunPod (zero sales effort — price competitively and let the platform bring customers)
+- Months 3+: Use real revenue data to approach direct clients — tech startups needing reserved GPU capacity, university research computing teams, AI companies wanting contracted uptime guarantees rather than marketplace availability
+- Year 2+: Contracted enterprise and institutional customers who need verifiable green provenance and SLA commitments that marketplace listings cannot provide
+
+**Success metric**: Real revenue data that validates (or refutes) the GPU marketplace model before approaching wind farm operators or investors.
+
 ### 9.1 Phase 1 — Prove It (Months 1–18)
 
-**Objective**: Operational proof of concept; first paying customers; validate energy cost model
+**Objective**: First managed-service client signed; first wind farm PPA in progress; Phase 0 pilot data in hand.
 
 **Activities:**
 
-*Partnership development (Months 1–6):*
-- Approach top-5 Scottish wind farm operators under NDA for curtailment data
-- Target: LOI with one operator for pilot site by Month 4
-- Priority operators: SSE Renewables (largest Scottish onshore portfolio), Vattenfall (Viking — highest curtailment), RWE Renewables
+*Using Phase 0 pilot data (Months 1–3):*
+- Present real GPU revenue data to first prospective client (wind farm operator or landowner)
+- The pitch: "Here is what 10 GPUs earned per month on Vast.ai. Here is what 60 GPUs at your site, on curtailed wind, would earn — and what you keep after our 10% fee."
 
-*Anchor tenant acquisition (Months 3–9):*
-- Approach EPCC (Edinburgh Parallel Computing Centre) — natural fit for HPC colo
-- Approach Scottish Government Digital Service — public sector green mandate
-- Approach 2–3 Scottish AI startups (Skyscanner, FanDuel, Administrate)
-- Target: one signed LOI for 100+ kW before site goes live (de-risks revenue)
+*First managed facility build (Months 4–12):*
+- Sign build agreement and 10% revenue share contract with first client
+- Deliver 100 kW facility: container, battery, electrical connection, networking
+- Commission EMS algorithm; integrate with wind farm SCADA
+- List client's GPUs on Vast.ai / RunPod under management
 
-*Site build (Months 6–14):*
-- Two containers at one site (400 kW IT load total)
-- Edinburgh NOC established in co-working space initially
-- 4–6 founding team members operational
-
-*Go-live and customer migration (Months 14–18):*
-- First customers live on site
-- PR launch: "Scotland's first wind-powered data centre"
-- Target: 40% utilisation by end of Month 18
+*Second managed facility (Months 10–18):*
+- Use build fee income from Facility 1 to fund operations during Facility 2 build
+- Refine standard design; reduce build time
 
 **Phase 1 success metrics:**
-- One wind farm PPA signed at <£20/MWh
-- One anchor customer signed (>100 kW)
-- Site uptime >99.9% over first 3 months of operation
-- PUE <1.15 demonstrated
+- Phase 0 pilot generating measurable GPU revenue (real figure, not a model)
+- One managed facility operational with client GPU revenue flowing
+- One wind farm PPA agreed at <£20/MWh (estimated)
+- WindEdge revenue (build fee + 10% share): >£60,000
 
 ### 9.2 Phase 2 — Scale (Months 18–42)
 
@@ -742,28 +753,30 @@ Energy management is WindEdge's core operational differentiator. The Energy Mana
 
 ### 10.4 Funding Requirements
 
-**Seed Round: £2.4 million**
+**Phase 0 — Self-funded pilot (no investors required)**
 
 | Use of funds | Amount |
 |-------------|--------|
-| Pilot site 1 (2 containers, 400 kW) | £1,100,000 |
-| Battery storage (2 MWh) | £400,000 |
-| Connectivity (fibre IRU or microwave) | £120,000 |
-| IT infrastructure (initial server build) | £280,000 |
-| Legal (incorporation, PPA, leases) | £120,000 |
-| Working capital / runway (18 months) | £380,000 |
-| **Total** | **£2,400,000** |
+| 4 × RTX 5090 GPUs (£2,500 each) | ~£10,000 |
+| Networking / hosting setup | £1,000–2,000 |
+| Vast.ai / RunPod provider registration | £0 |
+| **Total** | **~£10,000–12,000** |
 
-**Series A: £18 million (target Month 30)**
+*This phase requires no external investors and can begin immediately.*
+
+**Seed Round: £300,000–600,000 (after pilot validation)**
+
+Raised after the Phase 0 pilot has generated real revenue data — removing the largest single risk for investors.
 
 | Use of funds | Amount |
 |-------------|--------|
-| Sites 3–6 (4 sites x £1.6m avg) | £6,400,000 |
-| Sites 7–12 (6 sites x £1.6m avg) | £9,600,000 |
-| GPU inventory (H100 cluster, 200 GPUs) | £1,200,000 |
-| NOC build-out and staffing | £500,000 |
-| Working capital | £300,000 |
-| **Total** | **£18,000,000** |
+| First owned 100 kW wind-adjacent facility | £200,000–350,000 |
+| Battery storage (500 kWh) | £80,000–100,000 |
+| Legal (PPA, lease, incorporation) | £60,000–80,000 |
+| Working capital (12 months) | £80,000–120,000 |
+| **Total** | **£420,000–650,000** |
+
+*Note: The managed-service build fees (£40–80k per facility) fund WindEdge's operations from Year 1 onward and reduce dependence on equity. A formal Series A may not be required if the managed-service cash flow is sufficient.*
 
 ### 10.5 Key Financial Metrics
 
