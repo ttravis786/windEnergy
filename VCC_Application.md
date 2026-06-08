@@ -148,7 +148,7 @@ No IP protection filed to date. The primary candidate is a patent on WindEdge's 
 
 ### Do You Have a Team?
 
-**Yes** — two co-founders.
+**Yes** — four co-founders.
 
 ---
 
@@ -160,7 +160,9 @@ No IP protection filed to date. The primary candidate is a patent on WindEdge's 
 
 **Ye He, Founding Engineer and Technical Advisor.** 2nd year PhD student at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building a complete analysis workflow designed for broad use across the collaboration, handling large-scale datasets that rely heavily on GPU-accelerated computing. This direct experience with high-performance GPU pipelines is what draws her to WindEdge and shapes her technical contribution.
 
-Together, the founding team combines deep HPC and GPU pipeline expertise, energy markets knowledge, and the mathematical rigour of fundamental physics research — covering the technical, commercial, and energy domain skills the business requires.
+**Linus Deluca-Perry, Co-Founder and Founding Business Strategist.** Business Analyst at BlackRock's Transformations Office, where he leads large-scale change programmes across the firm, becoming a subject matter expert and managing significant workstreams end-to-end. Physics BSc from Imperial College London. He is also the founder of LDP Solar, where he developed a patented elevated agri-solar mounting system — demonstrating the ability to take a technical idea from concept to patent to commercial pilot. His execution track record at one of the world's largest asset managers and his hands-on experience founding and commercialising a renewable energy technology company make him the team's commercial anchor.
+
+Together, the founding team combines deep HPC and GPU pipeline expertise, energy markets knowledge, large-scale project execution from BlackRock, and the mathematical rigour of fundamental physics research — covering every domain the business requires.
 
 ---
 
@@ -169,6 +171,7 @@ Together, the founding team combines deep HPC and GPU pipeline expertise, energy
 - **Thomas Travis:** [X weeks], part-time alongside PhD
 - **Sulayman Awan:** [X weeks], part-time alongside PhD
 - **Ye He:** [X weeks], part-time alongside PhD
+- **Linus Deluca-Perry:** [X weeks], part-time alongside BlackRock role
 
 ---
 
@@ -186,7 +189,7 @@ No prior accelerator, incubator, or pre-accelerator participation.
 
 ### Confirmation from the Team
 
-[TICK THIS AFTER CONFIRMING WITH SULAYMAN AND YE that they consent to their details being submitted on their behalf and that all information provided is accurate.]
+[TICK THIS AFTER CONFIRMING WITH SULAYMAN, YE, AND LINUS that they consent to their details being submitted on their behalf and that all information provided is accurate.]
 
 ---
 
@@ -196,10 +199,10 @@ No prior accelerator, incubator, or pre-accelerator participation.
 
 | Field | Action needed |
 |-------|--------------|
-| Introductory video | Film with Thomas, Sulayman, and Ye on camera; upload to Loom or YouTube (unlisted); paste link |
+| Introductory video | Film with Thomas, Sulayman, Ye, and Linus on camera; upload to Loom or YouTube (unlisted); paste link |
 | Supporting document | Upload business plan PDF to Google Drive; paste link |
 | How long working on idea | Add the real number of weeks for each of you |
-| Team confirmation | Confirm with Sulayman before ticking |
+| Team confirmation | Confirm with Sulayman, Ye, and Linus before ticking |
 
 ---
 
