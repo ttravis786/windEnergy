@@ -253,6 +253,27 @@ ul { list-style: none; }
   33%       { transform: translate(20px, -20px); }
   66%       { transform: translate(-15px, 15px); }
 }
+.turbine-wrap {
+  position: absolute;
+  right: 4%;
+  bottom: 0;
+  width: 280px;
+  opacity: 0.1;
+  color: var(--green);
+  pointer-events: none;
+  z-index: 0;
+}
+.turbine-svg { width: 100%; height: auto; display: block; }
+.turbine-rotor {
+  transform-origin: 100px 128px;
+  animation: turbine-spin 9s linear infinite;
+}
+@keyframes turbine-spin {
+  to { transform: rotate(360deg); }
+}
+@media (max-width: 768px) {
+  .turbine-wrap { width: 160px; opacity: 0.06; right: 0; }
+}
 .hero__inner {
   position: relative;
   max-width: 760px;
