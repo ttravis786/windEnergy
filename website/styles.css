@@ -263,7 +263,7 @@ ul { list-style: none; }
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 480px;
+  width: 340px;
   opacity: 0.08;
   color: var(--green);
   pointer-events: none;
