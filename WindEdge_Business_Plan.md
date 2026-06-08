@@ -34,7 +34,7 @@
 
 ### The Business
 
-WindEdge Data Centres Ltd operates in two complementary ways. First, as a **build-and-manage service**: WindEdge designs and commissions small modular GPU data centres (100 kW, ~60 GPUs) for clients — wind farm operators, landowners, and investors — charging a fixed build fee and a 10% ongoing revenue share for managing how compute is sold on GPU marketplaces. Second, as a **direct operator**: WindEdge owns and operates facilities at the highest-curtailment wind farm sites, capturing 100% of revenue at those locations. The business starts asset-light, bootstrapped by a small GPU pilot, and migrates toward direct ownership as proof of concept is established.
+WindEdge Data Centres Ltd's **primary model is a build-and-manage service**: WindEdge designs and commissions modular GPU data centres (100 kW, ~60 GPUs) for clients — wind farm operators, landowners, and private investors — charging a fixed build fee and a 10% ongoing management fee for running the EMS algorithm and GPU marketplace. Clients own the hardware; WindEdge provides the expertise. As the company generates revenue and establishes track record, an **alternative path opens**: WindEdge builds and owns facilities directly at the highest-curtailment sites, capturing 100% of revenue. This owned-facility path can be reached either through accumulated build-and-manage revenue or, if appropriate, a seed raise to accelerate it.
 
 ### The Insight
 
@@ -44,12 +44,12 @@ Scotland curtailed **over 900 GWh of wind electricity in 2023** — power that w
 
 - **Phase 0 (now)**: Buy 4 RTX 5090 GPUs (~£2,500 each = ~£10,000 total), list on Vast.ai and RunPod. Estimated ~$0.40/GPU/hour net (minus electricity cost and 25% Vast.ai fee) at 85% occupancy = ~£9,400/year. Proves the GPU marketplace model with real data before approaching wind farm operators or investors.
 - **Phase 1 (Year 1–2)**: Build-and-manage service. Clients fund the hardware; WindEdge charges a build fee (£40–80k) and 10% of ongoing GPU revenue. Asset-light, fast to scale.
-- **Phase 2 (Year 2–3)**: Use build fee revenue and a small raise (£300–600k) to own 2–3 facilities directly at the highest-curtailment Scottish wind sites. These owned sites capture 100% of revenue.
-- **Phase 3 (Year 3+)**: Mixed portfolio — managed facilities provide recurring income; owned facilities generate the majority of profit.
+- **Phase 2 (Year 2–3)**: Own 2–3 facilities directly at the highest-curtailment Scottish sites, capturing 100% of GPU revenue. Two routes: (a) funded from accumulated build-and-manage revenue, or (b) a seed raise (£300–600k) to reach this point faster.
+- **Phase 3 (Year 3+)**: Mixed portfolio — managed facilities provide steady recurring income; owned facilities generate the majority of profit.
 
 ### The Ask
 
-WindEdge is seeking **£300,000–600,000** in seed funding to own and operate its first 1–2 wind-adjacent facilities directly, having already validated the GPU marketplace model through the Phase 0 pilot. This is significantly less capital than the original model required, with substantially lower risk.
+WindEdge's primary path to owned facilities is through accumulated build-and-manage revenue — no external capital required to reach Phase 2. An alternative is to raise **£300,000–600,000** in seed funding after the Phase 0 pilot to accelerate directly to an owned facility, compressing the timeline without waiting for managed revenue to accumulate. Either path reaches the same destination; the raise simply gets there faster.
 
 ### Headline Numbers (5-Year Forecast, Author Model)
 

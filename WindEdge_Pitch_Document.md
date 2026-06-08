@@ -25,7 +25,7 @@ Wind farms located in high-curtailment areas of Scotland have a substation, land
 
 ## The Business Model
 
-WindEdge operates in three phases, each funding the next.
+WindEdge's primary model is a build-and-manage service — designing and commissioning wind-adjacent GPU facilities for clients, earning a fixed build fee and ongoing management fee. As revenue grows, WindEdge builds and owns facilities directly. An alternative route to ownership is a seed raise, compressing the timeline without waiting for managed revenue to accumulate.
 
 ### Phase 0 — Self-Funded Pilot (Starting Now)
 
@@ -42,7 +42,7 @@ Buy **4 × RTX 5090 GPUs** (~£2,500 each = ~£10,000 total) and sell compute on
 
 **Customer escalation from marketplace to direct:** Start with anonymous hourly listings on Vast.ai (zero sales effort). Use real utilisation and revenue data to approach direct clients — tech startups needing reserved GPU clusters, university research computing teams, AI companies wanting SLA-backed capacity. Larger enterprises, financial quant teams, and government institutions follow once track record is established.
 
-### Phase 1 — Build-and-Manage Service (Asset-Light)
+### Phase 1 — Build-and-Manage Service (Primary Model)
 
 WindEdge designs and commissions **100 kW modular GPU facilities** (~60 GPUs) for clients — wind farm operators, landowners, and private investors who want exposure to the AI infrastructure asset class without the capital required for a full data centre. The client owns the hardware. WindEdge provides everything else.
 
@@ -66,9 +66,9 @@ Estimated GPU revenue per 100 kW facility: £120,000–350,000/year [18 — veri
 - Build fees fund operations from Year 1; no continuous equity raises needed
 - The EMS algorithm and marketplace management are the moat — clients can't replicate this without WindEdge
 
-### Phase 2 — Owned Facilities (High Margin)
+### Phase 2 — Owned Facilities (Alternative / Long-Term)
 
-Once build fee revenue is established, WindEdge uses a **small seed raise (£300–600k)** to own 1–2 facilities directly at the highest-curtailment sites — capturing 100% of GPU revenue at those locations rather than 10%.
+Once the build-and-manage service is generating revenue, WindEdge builds and owns facilities directly at the highest-curtailment sites — capturing 100% of GPU revenue rather than 10%. Two routes: funded from accumulated managed-service revenue, or accelerated by a **seed raise (£300–600k)**. Either path reaches the same destination.
 
 **Estimated unit economics — owned 100 kW facility:** [🔴 all author estimates]
 
