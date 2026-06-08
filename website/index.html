@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WindEdge Data Centres</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">WE</span>WindEdge
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#market">Market</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#invest" class="nav__cta">Invest</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+    </div>
+    <div class="hero__inner container">
+      <div class="hero__tag">Scotland · Wind Energy · Compute</div>
+      <h1 class="hero__headline">
+        Turning Scotland's<br />
+        <span class="highlight">Wasted Wind</span><br />
+        Into Green Compute
+      </h1>
+      <p class="hero__sub">
+        WindEdge co-locates modular data centres at wind farm substations,
+        consuming energy that would otherwise be discarded — delivering the
+        UK's cheapest and most verifiably renewable compute.
+      </p>
+      <div class="hero__actions">
+        <a href="#solution" class="btn btn--primary">How It Works</a>
+        <a href="#invest" class="btn btn--ghost">Seed Round Open</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stats__item">
+          <div class="stats__number" data-target="910" data-suffix=" GWh">0</div>
+          <div class="stats__label">Wind curtailed in Scotland annually</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__number" data-target="85" data-suffix="%" data-prefix="~">0</div>
+          <div class="stats__label">Below-market energy cost</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__number" data-target="1.07" data-decimals="2">0</div>
+          <div class="stats__label">Target PUE (industry avg. 1.58)</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__number" data-target="700" data-prefix="£" data-suffix="m+">0</div>
+          <div class="stats__label">Paid to wind farms to switch off (2023)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section problem" id="problem">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__tag">The Problem</div>
+        <h2 class="section__title">Scotland wastes its greatest asset</h2>
+        <p class="section__sub">Two broken markets — and one solution that fixes both.</p>
+      </div>
+      <div class="problem__grid">
+        <div class="problem__card card reveal">
+          <div class="problem__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <h3>Curtailment Crisis</h3>
+          <p>
+            Scotland's wind farms generate far more electricity than the transmission
+            grid can carry south. In 2023, grid operators paid over <strong>£700 million</strong>
+            to switch turbines off — electricity generated and immediately discarded.
+            Curtailment is growing faster than grid upgrades can address.
+          </p>
+          <div class="problem__stat">
+            <span class="problem__stat-num">910 GWh</span>
+            <span class="problem__stat-desc">wasted in 2023 alone</span>
+          </div>
+        </div>
+        <div class="problem__card card reveal">
+          <div class="problem__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8M12 17v4"/>
+            </svg>
+          </div>
+          <h3>Data Centre Energy Cost</h3>
+          <p>
+            Energy is a data centre's single largest cost — typically <strong>40–60% of
+            operating expenses</strong>. UK grid electricity runs at £100–140/MWh.
+            Meanwhile, enterprise customers face mandatory Scope 2 emissions
+            reporting from 2026 but cannot access genuinely renewable compute.
+            Certificate-based green claims are widely criticised as greenwashing.
+          </p>
+          <div class="problem__stat">
+            <span class="problem__stat-num">£100–140</span>
+            <span class="problem__stat-desc">per MWh on the open grid</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="section solution" id="solution">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__tag">The Solution</div>
+        <h2 class="section__title">Three phases. One compounding model.</h2>
+        <p class="section__sub">
+          WindEdge starts with a self-funded GPU pilot, scales through a
+          build-and-manage service, and owns the best wind-adjacent sites directly.
+          Each phase funds the next. On-site battery storage bridges wind gaps —
+          keeping GPUs running continuously regardless of whether the turbines are spinning.
+        </p>
+      </div>
+      <div class="solution__grid">
+        <div class="solution__card card reveal">
+          <div class="solution__number">01</div>
+          <h3>Phase 0 — Self-Funded Pilot</h3>
+          <p>
+            Buy 4 × RTX 5090 GPUs (~£2,500 each = ~£10,000 total) and sell compute on
+            Vast.ai and RunPod. No wind farm. No investors. Real revenue data in weeks
+            — then direct contracted relationships with startups, universities, and
+            enterprises replace anonymous marketplace listings.
+          </p>
+          <div class="solution__tag">Bootstrapped</div>
+        </div>
+        <div class="solution__card card reveal">
+          <div class="solution__number">02</div>
+          <h3>Phase 1 — Build &amp; Manage</h3>
+          <p>
+            Design and commission 100 kW modular GPU facilities (~60 GPUs) for wind
+            farm operators, landowners, and private investors seeking AI infrastructure
+            yield. Clients own the hardware. WindEdge charges a fixed build fee and
+            takes 10% of ongoing GPU revenue for managing the EMS and GPU marketplace.
+            Asset-light — build fees fund operations.
+          </p>
+          <div class="solution__tag">Asset-light</div>
+        </div>
+        <div class="solution__card card reveal">
+          <div class="solution__number">03</div>
+          <h3>Phase 2 — Own the Best Sites</h3>
+          <p>
+            At the highest-curtailment Scottish wind sites, WindEdge owns facilities
+            directly — capturing 100% of GPU revenue. Funded by accumulated build fees
+            and a small seed raise after pilot validation. Estimated energy at
+            £5–20/MWh versus £100–140/MWh on the grid creates a structural cost moat
+            no grid-connected competitor can match.
+          </p>
+          <div class="solution__tag">High margin</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section technology" id="technology">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__tag">Technology</div>
+        <h2 class="section__title">The load hierarchy that makes it work</h2>
+        <p class="section__sub">
+          WindEdge's proprietary Energy Management System maintains >99.9% uptime
+          for customers despite intermittent wind — using battery storage and
+          flexible loads as real-time buffers.
+        </p>
+      </div>
+
+      <div class="flow reveal">
+        <div class="flow__node flow__node--source">
+          <div class="flow__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+            </svg>
+          </div>
+          <div class="flow__label">Wind Turbines</div>
+        </div>
+        <div class="flow__arrow"></div>
+        <div class="flow__node">
+          <div class="flow__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <path d="M9 9h6M9 12h6M9 15h4"/>
+            </svg>
+          </div>
+          <div class="flow__label">Wind Farm Substation</div>
+        </div>
+        <div class="flow__arrow"></div>
+        <div class="flow__node flow__node--windedge">
+          <div class="flow__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="6" width="20" height="12" rx="2"/>
+              <path d="M6 10h.01M6 14h.01M10 10h8M10 14h5"/>
+            </svg>
+          </div>
+          <div class="flow__label">WindEdge Site</div>
+          <div class="flow__badge">EMS</div>
+        </div>
+      </div>
+
+      <div class="tiers reveal">
+        <div class="tiers__label">Load Priority Hierarchy</div>
+        <div class="tiers__grid">
+          <div class="tier tier--1">
+            <div class="tier__num">P1</div>
+            <div class="tier__name">Colocation Customers</div>
+            <div class="tier__desc">Always on — SLA protected. Never shed.</div>
+          </div>
+          <div class="tier tier--2">
+            <div class="tier__num">P2</div>
+            <div class="tier__name">Managed HPC / GPU</div>
+            <div class="tier__desc">Can pause and resume between jobs.</div>
+          </div>
+          <div class="tier tier--3">
+            <div class="tier__num">P3</div>
+            <div class="tier__name">AI Training Queues</div>
+            <div class="tier__desc">Delay-tolerant. Scheduled to wind peaks.</div>
+          </div>
+          <div class="tier tier--4">
+            <div class="tier__num">P4</div>
+            <div class="tier__name">Flexible Mining</div>
+            <div class="tier__desc">Instant-off. Absorbs all surplus wind.</div>
+          </div>
+        </div>
+        <div class="tiers__footer">
+          Battery storage (2–4 MWh per site) and grid tie-in cover gaps between Priority 1 and wind availability.
+        </div>
+      </div>
+
+      <div class="ip-box card reveal">
+        <div class="ip-box__tag">Core IP</div>
+        <h3>The Energy Management System</h3>
+        <p>
+          WindEdge's proprietary EMS is the primary patent candidate — a real-time
+          multi-objective optimisation algorithm controlling physical electrical load
+          switching using probabilistic wind forecasts, live turbine SCADA data,
+          grid electricity spot prices, and battery state of charge as simultaneous
+          inputs. Designed by two CERN physicists who build exactly this class of
+          real-time optimisation system daily.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET -->
+  <section class="section market" id="market">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__tag">Market Opportunity</div>
+        <h2 class="section__title">A growing market. No direct competitors.</h2>
+      </div>
+      <div class="market__grid">
+        <div class="market__stat reveal">
+          <div class="market__num">£5.3bn</div>
+          <div class="market__desc">UK data centre market (2024)</div>
+          <div class="market__note">Growing at ~12% CAGR to ~£9.8bn by 2030 — analyst estimate</div>
+        </div>
+        <div class="market__stat reveal">
+          <div class="market__num">19%</div>
+          <div class="market__desc">Green compute market CAGR</div>
+          <div class="market__note">Growing faster than conventional infrastructure — analyst estimate</div>
+        </div>
+        <div class="market__stat reveal">
+          <div class="market__num">Zero</div>
+          <div class="market__desc">Direct UK competitors</div>
+          <div class="market__note">No operator currently co-locates modular data centres with UK wind farms</div>
+        </div>
+      </div>
+      <div class="comparables card reveal">
+        <h3>International Analogues — the model works</h3>
+        <div class="comparables__grid">
+          <div class="comparable">
+            <div class="comparable__name">Hydro66</div>
+            <div class="comparable__country">Sweden</div>
+            <div class="comparable__model">Hydropower-adjacent DC</div>
+            <div class="comparable__raised">£35m raised</div>
+          </div>
+          <div class="comparable">
+            <div class="comparable__name">GreenMountain</div>
+            <div class="comparable__country">Norway</div>
+            <div class="comparable__model">Fjord-cooled DC</div>
+            <div class="comparable__raised">PE-backed</div>
+          </div>
+          <div class="comparable">
+            <div class="comparable__name">Borealis DC</div>
+            <div class="comparable__country">Iceland</div>
+            <div class="comparable__model">Geothermal DC</div>
+            <div class="comparable__raised">Active</div>
+          </div>
+          <div class="comparable">
+            <div class="comparable__name">Deep Green</div>
+            <div class="comparable__country">UK</div>
+            <div class="comparable__model">Waste heat DC</div>
+            <div class="comparable__raised">£30m raised</div>
+          </div>
+        </div>
+        <p class="comparables__note">The UK wind curtailment market is unserved. WindEdge is first.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section team" id="team">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__tag">The Team</div>
+        <h2 class="section__title">Built by people who live the problem</h2>
+        <p class="section__sub">
+          Two CERN physicists who process petabytes of data daily on the world's
+          largest computing grid — and who between them have worked inside Shell,
+          Moore Capital, and Altana Wealth.
+        </p>
+      </div>
+      <div class="team__grid">
+        <div class="team__card card reveal">
+          <div class="team__avatar team__avatar--t">TT</div>
+          <h3>Thomas Travis</h3>
+          <div class="team__role">CEO & Co-Founder</div>
+          <p>
+            2nd year PhD in particle physics at CERN (Imperial College London).
+            Leads the full Run 3 VBF Higgs-to-invisible analysis — a flagship
+            model-independent dark matter search — introducing Lorentz-boosted
+            neural networks to the analysis for the first time.
+          </p>
+          <ul class="team__credentials">
+            <li>Shell oil trading floor — 2 × 5-month internships</li>
+            <li>Energy markets, PPA structuring, commodity pricing</li>
+            <li>CERN Worldwide LHC Computing Grid</li>
+          </ul>
+        </div>
+        <div class="team__card card reveal">
+          <div class="team__avatar team__avatar--s">SA</div>
+          <h3>Sulayman Awan</h3>
+          <div class="team__role">CTO & Co-Founder</div>
+          <p>
+            2nd year PhD in particle physics at CERN (Imperial College London).
+            Pioneering ML methods for a model-agnostic dark matter search —
+            Graph Transformer networks on raw detector data combined with
+            ABCDDisco background estimation.
+          </p>
+          <ul class="team__credentials">
+            <li>Altana Wealth — carbon trading strategy</li>
+            <li>Moore Capital — quant research, futures & interest rate swaps</li>
+            <li>CERN Worldwide LHC Computing Grid</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVEST -->
+  <section class="section invest" id="invest">
+    <div class="container">
+      <div class="invest__inner card reveal">
+        <div class="invest__tag">Seed Round — after pilot validation</div>
+        <h2>£300k–600k</h2>
+        <p>
+          Raised after the Phase 0 pilot generates real GPU revenue data.
+          Funds WindEdge's first 1–2 owned wind-adjacent facilities — capturing
+          100% of revenue at the highest-curtailment Scottish sites. A transformed
+          investor conversation: concept to validated thesis.
+        </p>
+        <div class="invest__grid">
+          <div class="invest__item">
+            <div class="invest__item-label">Structure</div>
+            <div class="invest__item-value">SEIS / EIS eligible</div>
+          </div>
+          <div class="invest__item">
+            <div class="invest__item-label">Tax relief</div>
+            <div class="invest__item-value">50% SEIS / 30% EIS</div>
+          </div>
+          <div class="invest__item">
+            <div class="invest__item-label">Phase 0 pilot</div>
+            <div class="invest__item-value">Self-funded · ~£10k · starting now</div>
+          </div>
+          <div class="invest__item">
+            <div class="invest__item-label">Exit paths</div>
+            <div class="invest__item-value">Trade sale or infrastructure fund</div>
+          </div>
+        </div>
+        <a href="mailto:thomas@windedge.co.uk" class="btn btn--primary btn--large">Get in Touch</a>
+        <p class="invest__note">
+          SEIS/EIS relief figures are published HMRC rates. All financial projections are author
+          estimates and have not been validated against operational data.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="nav__logo-mark">WE</span>
+          <span>WindEdge Data Centres</span>
+        </div>
+        <div class="footer__links">
+          <a href="#problem">Problem</a>
+          <a href="#solution">Solution</a>
+          <a href="#technology">Technology</a>
+          <a href="#team">Team</a>
+          <a href="#invest">Invest</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 WindEdge Data Centres Ltd. Confidential — not for distribution.</p>
+        <p>Edinburgh, Scotland · Imperial College London · CERN</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

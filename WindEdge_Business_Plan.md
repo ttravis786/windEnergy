@@ -42,7 +42,7 @@ Scotland curtailed **over 900 GWh of wind electricity in 2023** — power that w
 
 ### The Phased Approach
 
-- **Phase 0 (now)**: Buy 4 RTX 5090 GPUs (~£2,500 each = ~£10,000 total), list on Vast.ai and RunPod marketplace. Proves GPU marketplace revenue with no investor capital. Estimated payback ~2–4 months. Real revenue data then opens direct client conversations — tech startups, university research teams, AI companies — moving beyond anonymous hourly marketplace listings to contracted capacity.
+- **Phase 0 (now)**: Buy 4 RTX 5090 GPUs (~£2,500 each = ~£10,000 total), list on Vast.ai and RunPod. Estimated ~$0.40/GPU/hour net (minus electricity cost and 25% Vast.ai fee) at 85% occupancy = ~£9,400/year. Proves the GPU marketplace model with real data before approaching wind farm operators or investors.
 - **Phase 1 (Year 1–2)**: Build-and-manage service. Clients fund the hardware; WindEdge charges a build fee (£40–80k) and 10% of ongoing GPU revenue. Asset-light, fast to scale.
 - **Phase 2 (Year 2–3)**: Use build fee revenue and a small raise (£300–600k) to own 2–3 facilities directly at the highest-curtailment Scottish wind sites. These owned sites capture 100% of revenue.
 - **Phase 3 (Year 3+)**: Mixed portfolio — managed facilities provide recurring income; owned facilities generate the majority of profit.
@@ -60,10 +60,10 @@ WindEdge is seeking **£300,000–600,000** in seed funding to own and operate i
 | Build fee revenue | £0 | £180k | £600k | £1,125k |
 | Recurring managed revenue (10%) | £0 | £45k | £250k | £900k |
 | Owned facility revenue | £0 | £180k | £400k | £1,500k |
-| **Total Revenue** | **~£25–65k*** | **~£405k** | **~£1,250k** | **~£3,525k** |
+| **Total Revenue** | **~£9.4k*** | **~£405k** | **~£1,250k** | **~£3,525k** |
 | Headcount | 2 | 4 | 10 | 25 |
 
-*Phase 0 pilot GPU revenue only (4 × RTX 5090). All figures are author model estimates — see Appendix F.*
+*Phase 0 pilot net GPU revenue only (4 × RTX 5090, ~$0.40/GPU/hour net at 85% occupancy). All figures are author model estimates — see Appendix F.*
 
 ---
 
@@ -299,9 +299,8 @@ Before approaching any investors or wind farm operators, WindEdge validates the 
 
 - **Hardware**: 4 × NVIDIA RTX 5090 GPUs (~£2,500 each = ~£10,000 total)
 - **Platforms**: Vast.ai, RunPod — list GPUs for rent by the hour on the open marketplace
-- **Estimated revenue**: ~£1.00–2.50/GPU/hour at 65–75% utilisation (verify current rates on platform before committing)
-- **Estimated annual revenue (4 GPUs)**: ~£25,000–65,000 [🔴 author estimate — verify on Vast.ai]
-- **Estimated payback**: ~2–4 months [🔴 author estimate]
+- **Estimated net revenue**: ~$0.40/GPU/hour net (minus electricity cost and 25% Vast.ai fee) at 85% occupancy [🔴 benchmarked against current Vast.ai listings — verify before committing]
+- **Estimated annual net revenue (4 GPUs)**: ~£9,400/year
 - **Purpose**: Proves GPU marketplace revenue with real operational data before any wind farm build
 - **Customer escalation**: Start on anonymous marketplace (no sales effort); use revenue data to move to direct contracted relationships with tech startups, university research computing teams, and AI companies needing reserved capacity
 
@@ -688,11 +687,12 @@ Energy management is WindEdge's core operational differentiator. The Energy Mana
 - Electrical connection works: £150,000 per site
 - Networking/backhaul: £80,000 per site
 - IT hardware (servers, GPUs, networking): £500,000 per MW of IT load
-- Total capex per 1 MW site: ~£1.5–1.8 million
+- Total capex per 100 kW managed facility (client-funded): ~£200,000–350,000
+- Total capex per 1 MW owned facility: ~£2.5–3.5 million [🔴 author estimate — component breakdown in Appendix]
 
 **Financing:**
-- Seed: £2.4m equity (pre-revenue, covers pilot build + 18 months runway)
-- Series A: £18m equity (Month 30; covers sites 3–12 and GPU inventory)
+- Phase 0: ~£10,000 self-funded (4 × RTX 5090 GPUs)
+- Seed: £300,000–600,000 equity (after pilot validation; funds first 1–2 owned facilities)
 - Debt: Project finance considered from Year 3 once track record established
 
 ### 10.2 Five-Year P&L Projection

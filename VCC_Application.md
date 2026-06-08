@@ -48,7 +48,7 @@ Scotland discards over 900GWh of wind electricity annually — grid operators pa
 
 ### Solution
 
-WindEdge operates as a build-and-manage service: we design 100kW modular GPU facilities for wind farm operators, landowners, and private investors who want AI infrastructure exposure without building a full data centre. We charge a fixed build fee and take 10% of ongoing GPU revenue to manage how compute is sold. Clients own the hardware; WindEdge provides the EMS algorithm and GPU marketplace management. A self-funded pilot — 4 × RTX 5090 GPUs at ~£10,000 total, listed on Vast.ai — proves the revenue model before any investor capital is deployed. Real data then enables direct contracted relationships with startups, universities, and enterprises. The best sites are then owned directly by WindEdge, capturing 100% of revenue.
+WindEdge operates as a build-and-manage service: we design 100kW modular GPU facilities — paired with on-site battery storage for continuous GPU uptime — for wind farm operators, landowners, and private investors. We charge a fixed build fee and take 10% of ongoing GPU revenue to manage how compute is sold. Clients own the hardware; WindEdge provides the EMS algorithm and GPU marketplace management. A self-funded pilot — 4 × RTX 5090 GPUs at ~£10,000, listed on Vast.ai — proves the revenue model before any investor capital is deployed. Real data then opens direct contracted relationships with startups, universities, and enterprises. The best sites are owned directly by WindEdge, capturing 100% of revenue.
 
 ---
 
@@ -74,7 +74,7 @@ The UK data centre colocation market is worth £5.3bn, growing at 12% annually t
 
 ### Scalability
 
-Scotland alone has 15GW of installed wind capacity with over 1,000GWh curtailed annually — projected to exceed 2,000GWh by 2028 as wind build outpaces grid upgrades. Each 1MW site targets £2m annual revenue at steady state; a 20-site Scottish portfolio represents £40m+ addressable revenue before any geographic expansion. The model applies directly to Welsh wind, Northern Irish and Irish wind farms, and European markets with similar curtailment dynamics. The global green data centre market grows at 19% CAGR versus 12% for conventional infrastructure. UK SDR, EU CSRD, and the UK government's AI compute strategy all permanently increase demand for exactly what WindEdge supplies.
+Scotland alone has ~12–13GW of installed wind capacity with over 1,000GWh curtailed annually — projected to exceed 2,000GWh by 2028 as wind build outpaces grid upgrades. Facilities scale from 100kW (~£150k–350k GPU revenue/year) to 1MW (~£1.5m–3.5m/year); a 20-site Scottish portfolio represents £30m+ addressable revenue. The model applies directly to Welsh wind, Northern Irish and Irish wind farms, and European markets with similar curtailment dynamics. The global green data centre market grows at 19% CAGR versus 12% for conventional infrastructure. UK SDR, EU CSRD, and the UK government's AI compute strategy all permanently increase demand for exactly what WindEdge supplies.
 
 ---
 
@@ -88,7 +88,7 @@ The core technical architecture, electrical topology, optimisation algorithm con
 
 ### Progress / Traction
 
-Completed: full technical architecture; EMS algorithm concept and specification; Scottish planning and grid connection regulatory mapping; IP strategy with patent candidate identified; competitive landscape confirming no direct UK competitor; wind farm operator targets identified. Immediate next step: self-funded pilot — purchasing 4 × RTX 5090 GPUs (~£2,500 each = ~£10,000 total) and listing on Vast.ai to generate real GPU revenue data. Initial customers are anonymous marketplace renters; real revenue data then opens direct contracted relationships with tech startups, university research teams, and AI companies needing reserved capacity. This pilot de-risks the core revenue assumption and transforms the fundraise from concept to validated thesis. No external funding or filed IP to date.
+Completed: full technical architecture; EMS algorithm concept and specification; Scottish planning and grid connection regulatory mapping; IP strategy with patent candidate identified; competitive landscape confirming no direct UK competitor; wind farm operator targets identified. Immediate next step: self-funded pilot — purchasing 4 × RTX 5090 GPUs (~£10,000 total) and listing on Vast.ai. Estimated ~$0.40/GPU/hour net (minus electricity cost and 25% vast ai) at 85% occupancy = ~£9,400/year. Real revenue data then opens direct contracted relationships with startups, universities, and AI companies needing reserved capacity. No external funding or filed IP to date.
 
 ---
 

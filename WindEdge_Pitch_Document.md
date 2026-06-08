@@ -33,12 +33,12 @@ Buy **4 × RTX 5090 GPUs** (~£2,500 each = ~£10,000 total) and sell compute on
 
 | | Estimate | Ref |
 |-|----------|-----|
-| Hardware cost (4 × RTX 5090 at £2,500 each) | ~£10,000 | [20] |
-| Estimated revenue/GPU/hour on Vast.ai | $1.00–2.50 | [18] |
-| Estimated annual revenue (4 GPUs, 70% util) | £25,000–65,000 | [18] |
-| Estimated payback | 2–4 months | [18] |
+| Hardware (4 × RTX 5090 at ~£2,500 each) | ~£10,000 | [20] |
+| Net revenue/GPU/hour on Vast.ai (minus electricity and 25% Vast.ai fee) | ~$0.40 | [18] |
+| Occupancy | 85% | [18] |
+| **Estimated annual net revenue (4 GPUs)** | **~£9,400/year** | [🔴] |
 
-*Actual rates vary — verify current listings on Vast.ai before committing.*
+*Verify current rates on Vast.ai before committing.*
 
 **Customer escalation from marketplace to direct:** Start with anonymous hourly listings on Vast.ai (zero sales effort). Use real utilisation and revenue data to approach direct clients — tech startups needing reserved GPU clusters, university research computing teams, AI companies wanting SLA-backed capacity. Larger enterprises, financial quant teams, and government institutions follow once track record is established.
 
