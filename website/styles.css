@@ -764,6 +764,7 @@ ul { list-style: none; }
   grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
+
 .team__card { }
 .team__avatar {
   width: 64px;
@@ -791,6 +792,11 @@ ul { list-style: none; }
   background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(168, 85, 247, 0.1));
   border: 1px solid rgba(168, 85, 247, 0.3);
   color: #a855f7;
+}
+.team__avatar--l {
+  background: linear-gradient(135deg, rgba(251, 146, 60, 0.3), rgba(251, 146, 60, 0.1));
+  border: 1px solid rgba(251, 146, 60, 0.3);
+  color: #fb923c;
 }
 .team__card h3 {
   font-size: 1.25rem;
