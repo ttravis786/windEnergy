@@ -34,18 +34,24 @@
       <div class="hero__grid"></div>
       <div class="hero__orb hero__orb--1"></div>
       <div class="hero__orb hero__orb--2"></div>
-      <div class="turbine-wrap">
-        <svg class="turbine-svg" viewBox="0 0 200 580" xmlns="http://www.w3.org/2000/svg">
-          <polygon points="94,580 97,140 103,140 106,580" fill="currentColor"/>
-          <rect x="87" y="122" width="36" height="20" rx="4" fill="currentColor"/>
-          <g class="turbine-rotor">
-            <path d="M100,128 C96,108 93,68 98,18 C100,15 100,15 102,18 C107,68 104,108 100,128 Z" fill="currentColor"/>
-            <path d="M100,128 C96,108 93,68 98,18 C100,15 100,15 102,18 C107,68 104,108 100,128 Z" fill="currentColor" transform="rotate(120 100 128)"/>
-            <path d="M100,128 C96,108 93,68 98,18 C100,15 100,15 102,18 C107,68 104,108 100,128 Z" fill="currentColor" transform="rotate(240 100 128)"/>
-            <circle cx="100" cy="128" r="8" fill="currentColor"/>
+    </div>
+    <div class="turbine-wrap">
+      <svg viewBox="0 0 300 700" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+        <!-- Tower -->
+        <polygon points="141,700 145,192 155,192 159,700"/>
+        <!-- Nacelle -->
+        <rect x="133" y="174" width="44" height="22" rx="5"/>
+        <!-- Rotor: outer g positions hub, inner g spins -->
+        <g transform="translate(150,183)">
+          <g>
+            <path d="M0,0 C-5,-22 -8,-72 -2,-148 C0,-152 0,-152 2,-148 C8,-72 5,-22 0,0 Z"/>
+            <path d="M0,0 C-5,-22 -8,-72 -2,-148 C0,-152 0,-152 2,-148 C8,-72 5,-22 0,0 Z" transform="rotate(120)"/>
+            <path d="M0,0 C-5,-22 -8,-72 -2,-148 C0,-152 0,-152 2,-148 C8,-72 5,-22 0,0 Z" transform="rotate(240)"/>
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
           </g>
-        </svg>
-      </div>
+          <circle r="10"/>
+        </g>
+      </svg>
     </div>
     <div class="hero__inner container">
       <div class="hero__tag">Scotland · Wind Energy · Compute</div>
