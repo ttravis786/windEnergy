@@ -853,6 +853,25 @@ ul { list-style: none; }
   font-size: 0.8rem;
 }
 
+.team__linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 10px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.team__linkedin:hover {
+  color: #0a66c2;
+  border-color: #0a66c2;
+}
+.team__linkedin svg { width: 14px; height: 14px; flex-shrink: 0; }
+
 /* ---- INVEST ---- */
 .invest {
   background: var(--bg-2);
