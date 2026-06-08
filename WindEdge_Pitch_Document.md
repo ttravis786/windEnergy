@@ -90,7 +90,7 @@ The Energy Management System is WindEdge's primary patent candidate. A real-time
 - Outputs: battery charge/discharge commands, GPU load scheduling, grid import/export decisions
 - Result: maximum GPU uptime and revenue regardless of wind variability
 
-Designed by two CERN physicists who build exactly this class of real-time optimisation system for particle physics data processing daily.
+Designed by two CMS physicists at CERN who build exactly this class of real-time optimisation system for particle physics data processing daily.
 
 ---
 
@@ -120,16 +120,16 @@ Designed by two CERN physicists who build exactly this class of real-time optimi
 ## Team
 
 **Thomas Travis — CEO & Co-Founder**
-2nd year PhD in particle physics at CERN (Imperial College London). Leads the full Run 3 VBF Higgs-to-invisible analysis — a flagship model-independent dark matter search — introducing Lorentz-boosted neural networks to the analysis for the first time, processing petabytes of collision data on the CERN Worldwide LHC Computing Grid. Two 5-month internships on Shell's oil trading floor: energy commodity markets, PPA structuring, how large energy companies value long-term supply agreements. Leads commercial strategy, wind farm partnerships, fundraising.
+2nd year PhD in particle physics at CERN (Imperial College London), working on the CMS experiment. Leads the full Run 3 VBF Higgs-to-invisible analysis on CMS — a flagship model-independent dark matter search — introducing Lorentz-boosted neural networks to the analysis for the first time, processing petabytes of collision data on the CERN Worldwide LHC Computing Grid. Two 5-month internships on Shell's oil trading floor: energy commodity markets, PPA structuring, how large energy companies value long-term supply agreements. Leads commercial strategy, wind farm partnerships, fundraising.
 
 **Sulayman Awan — CTO & Co-Founder**
-2nd year PhD in particle physics at CERN (Imperial College London). Pioneering ML research: Graph Transformer networks on raw detector energy deposits combined with ABCDDisco background estimation for a model-agnostic dark matter search (SUEPs). Two industry internships: quant research at Moore Capital (futures strategies, interest rate swaps) and carbon trading strategy at Altana Wealth — directly informing WindEdge's green compute pricing and carbon attribution methodology. Leads EMS algorithm development, GPU marketplace integration, and site commissioning.
+2nd year PhD in particle physics at CERN (Imperial College London), working on the CMS experiment. Pioneering ML research: Graph Transformer networks on raw CMS detector energy deposits combined with ABCDDisco background estimation for a model-agnostic dark matter search (SUEPs). Two industry internships: quant research at Moore Capital (futures strategies, interest rate swaps) and carbon trading strategy at Altana Wealth — directly informing WindEdge's green compute pricing and carbon attribution methodology. Leads EMS algorithm development, GPU marketplace integration, and site commissioning.
 
 **Linus Deluca-Perry — Founding Business Strategist**
 Business Analyst at BlackRock's Transformations Office, leading large-scale change programmes across the firm. Physics BSc from Imperial College London. Founder of LDP Solar, where he independently developed and patented an agri-solar mounting system — demonstrating entrepreneurial execution in renewable energy from idea to patent to pilot. He brings commercial strategy, investor relations, and the institutional credibility of BlackRock to WindEdge.
 
 **Ye He — Founding Engineer & Technical Advisor**
-2nd year PhD at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building a complete analysis workflow designed for broad use across the collaboration, handling large-scale datasets that rely heavily on GPU-accelerated computing. This direct experience with high-performance GPU pipelines is what draws her to WindEdge.
+2nd year PhD at CERN (Imperial College London), measuring the top quark mass using simulation-based inference on the CMS experiment — the first application of this technique in CMS. Her work involves building a complete analysis workflow designed for broad use across the collaboration, handling large-scale datasets that rely heavily on GPU-accelerated computing. This direct experience with high-performance GPU pipelines is what draws her to WindEdge.
 
 **Why this team:**
 Thomas, Sulayman, Ye, and Linus sit at the intersection of every domain WindEdge requires: HPC infrastructure (CERN grid and CMS), energy markets (Shell), carbon markets (Altana Wealth), quantitative finance (Moore Capital), frontier ML (three PhDs), and commercial execution at institutional scale (BlackRock). Three of them are also the exact customers WindEdge serves — researchers who process petabytes of data daily and know first-hand what GPU compute costs and why green provenance increasingly drives procurement.
