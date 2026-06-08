@@ -125,8 +125,11 @@ Designed by two CERN physicists who build exactly this class of real-time optimi
 **Sulayman Awan — CTO & Co-Founder**
 2nd year PhD in particle physics at CERN (Imperial College London). Pioneering ML research: Graph Transformer networks on raw detector energy deposits combined with ABCDDisco background estimation for a model-agnostic dark matter search (SUEPs). Two industry internships: quant research at Moore Capital (futures strategies, interest rate swaps) and carbon trading strategy at Altana Wealth — directly informing WindEdge's green compute pricing and carbon attribution methodology. Leads EMS algorithm development, GPU marketplace integration, and site commissioning.
 
+**Ye He — Founding Engineer & Technical Advisor**
+2nd year PhD at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building a complete analysis workflow designed for broad use across the collaboration, handling large-scale datasets that rely heavily on GPU-accelerated computing. This direct experience with high-performance GPU pipelines is what draws her to WindEdge.
+
 **Why this team:**
-Thomas and Sulayman sit at the intersection of every domain WindEdge requires: HPC infrastructure (CERN grid), energy markets (Shell), carbon markets (Altana Wealth), quantitative finance (Moore Capital), and frontier ML (both PhDs). They are also the exact customer WindEdge serves — researchers who process petabytes of data daily and know first-hand what GPU compute costs and why green provenance increasingly drives procurement.
+Thomas, Sulayman, and Ye sit at the intersection of every domain WindEdge requires: HPC infrastructure (CERN grid and CMS), energy markets (Shell), carbon markets (Altana Wealth), quantitative finance (Moore Capital), and frontier ML (all three PhDs). They are also the exact customers WindEdge serves — researchers who process petabytes of data daily and know first-hand what GPU compute costs and why green provenance increasingly drives procurement.
 
 ---
 

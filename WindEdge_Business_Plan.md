@@ -819,6 +819,9 @@ The founding team requires a specific combination of expertise not commonly foun
 - Responsibilities: Fundraising, financial modelling, project finance from Series A
 - Salary: £70,000 + equity
 
+**Ye He — Founding Engineer and Technical Advisor**
+2nd year PhD student at Imperial College London, measuring the top quark mass using simulation-based inference — the first application of this technique in the CMS experiment. Her work involves building complete GPU-accelerated analysis workflows for large-scale datasets across the CMS collaboration. Her direct experience designing and operating high-performance GPU pipelines is directly applicable to WindEdge's GPU marketplace infrastructure and EMS integration. She contributes as a technical advisor on GPU architecture, workflow design, and HPC pipeline optimisation.
+
 ### 11.2 Hiring Plan
 
 | Role | When | Salary |

@@ -787,6 +787,11 @@ ul { list-style: none; }
   border: 1px solid rgba(56, 189, 248, 0.3);
   color: var(--blue);
 }
+.team__avatar--y {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(168, 85, 247, 0.1));
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  color: #a855f7;
+}
 .team__card h3 {
   font-size: 1.25rem;
   font-weight: 700;
