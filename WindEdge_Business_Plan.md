@@ -71,6 +71,8 @@ WindEdge's primary path to owned facilities is through accumulated build-and-man
 
 ### Vision
 
+Some notes. Assume curtailed energy is free the payback time of a battery is 3 years (600k per 2MWh)
+
 A world where compute infrastructure is no longer a driver of climate change, but is powered entirely by energy that would otherwise go to waste.
 
 ### Mission

@@ -42,13 +42,15 @@ We are green compute infrastructure for enterprises that turns Scotland's wasted
 
 ### Problem Statement
 
-Scotland discards over 900GWh of wind electricity annually — grid operators pay wind farms £700m+ per year to switch turbines off because transmission lines cannot carry the power south. Meanwhile, UK data centres pay £100–140/MWh for electricity, their single largest cost at 40–60% of operating expenses. From 2026, UK Sustainability Disclosure Requirements mandate corporate Scope 2 emissions reporting, yet enterprise customers cannot access genuinely renewable compute — only renewable certificates widely criticised as greenwashing. A structural solution to both problems does not currently exist in the UK market.
+Scotland discards over 9TWh (2025) of wind electricity annually — grid operators pay wind farms £350m per year (2025) to switch turbines off because transmission lines cannot carry the power south. Meanwhile, UK data centres pay £100–140/MWh Check for electricity, their single largest cost at 40–60% of operating expenses. From 2026, UK Sustainability Disclosure Requirements mandate corporate Scope 2 emissions reporting, yet enterprise customers cannot access genuinely renewable compute — only renewable certificates widely criticised as greenwashing. A structural solution to both problems does not currently exist in the UK market.
+
+Reference https://dmscdn.vuelio.co.uk/publicitem/da9b1829-8aef-405f-a4e4-2e611a478e11
 
 ---
 
 ### Solution
 
-WindEdge operates as a build-and-manage service: we design 100kW modular GPU facilities — paired with on-site battery storage for continuous GPU uptime — for wind farm operators, landowners, and private investors. We charge a fixed build fee and take 10% of ongoing GPU revenue to manage how compute is sold. Clients own the hardware; WindEdge provides the EMS algorithm and GPU marketplace management. A self-funded pilot — 4 × RTX 5090 GPUs at ~£10,000, listed on Vast.ai — proves the revenue model before any investor capital is deployed. Real data then opens direct contracted relationships with startups, universities, and enterprises. The best sites are owned directly by WindEdge, capturing 100% of revenue.
+WindEdge operates as a build-and-manage service: we design 100kW modular GPU facilities — paired with on-site battery storage for continuous GPU uptime — for wind farm operators, landowners, and private investors. We charge a fixed build fee and take 10% of ongoing GPU revenue to manage how compute is sold. Clients own the hardware; WindEdge provides the EMS algorithm and GPU marketplace management. A self-funded pilot — 4 × RTX 5090 GPUs at ~£10,000 (housed in a server ~£2500), listed on Vast.ai — proves the revenue model before any investor capital is deployed. Real data then opens direct contracted relationships with startups, universities, and enterprises. The best sites are owned directly by WindEdge, capturing 100% of revenue.
 
 ---
 
@@ -68,13 +70,25 @@ Customer discovery conducted with [X] individuals including two senior instituti
 
 ### Market Research
 
-The UK data centre colocation market is worth £5.3bn, growing at 12% annually to an estimated £9.8bn by 2030. No UK competitor currently co-locates modular data centres with wind farms. Grid-connected operators — Equinix, Digital Realty, and iomart — pay £100–140/MWh for electricity and rely on renewable certificates. International analogues validate the model: Hydro66 in Sweden, GreenMountain in Norway, and Borealis in Iceland all operate renewable-adjacent data centres profitably. The UK market is entirely unserved. Hyperscalers require 100MW+ sites and ignore the 1–5MW edge compute gap WindEdge targets. Deep Green (UK) uses waste heat but cannot match wind curtailment scale or the strength of a direct-wire renewable claim.
+The UK data centre market is worth £8bn, growing at 13% annually to an estimated £17bn by 2030. No UK competitor currently co-locates modular data centres with wind farms. Grid-connected operators — Equinix, Digital Realty, and iomart — pay £140-280/MWh for electricity and rely on renewable certificates. International analogues validate the model: Hydro66 in Sweden, GreenMountain in Norway, and Borealis in Iceland all operate renewable-adjacent data centres profitably. The UK market is entirely unserved. Hyperscalers require 100MW+ sites and ignore the 1–5MW edge compute gap WindEdge targets. Deep Green (UK) uses waste heat but cannot match wind curtailment scale or the strength of a direct-wire renewable claim.
+
+Data centre market size https://uk.finance.yahoo.com/news/uk-data-center-market-investment-181200330.html
+
+Data centre energy cost https://www.lloydenergy.co.uk/data-centre-electricity-cost-comparison.php
 
 ---
 
 ### Scalability
 
-Scotland alone has ~12–13GW of installed wind capacity with over 1,000GWh curtailed annually — projected to exceed 2,000GWh by 2028 as wind build outpaces grid upgrades. Facilities scale from 100kW (~£150k–350k GPU revenue/year) to 1MW (~£1.5m–3.5m/year); a 20-site Scottish portfolio represents £30m+ addressable revenue. The model applies directly to Welsh wind, Northern Irish and Irish wind farms, and European markets with similar curtailment dynamics. The global green data centre market grows at 19% CAGR versus 12% for conventional infrastructure. UK SDR, EU CSRD, and the UK government's AI compute strategy all permanently increase demand for exactly what WindEdge supplies.
+Scotland alone has ~17.7GW of installed wind capacity with over 8.7 Twh (2025) curtailed annually — this will increase as increased wind capacity continues to outgrow grid connectivity. Facilities scale from 100kW ( £1.5 million GPU revenue/year with wind edge taking a 10% fee) to 1MW (~£15m/year); a 20-site (20x100kw) Scottish portfolio represents £30m+ addressable revenue. The model applies directly to all global markets, we are initially targeting wind farms but other renewable sources are in scope. The global green data centre market grows at 19% versus 11% for conventional infrastructure. UK SDR, EU CSRD, and the UK government's AI compute strategy all permanently increase demand for exactly what WindEdge supplies.
+
+Total capacity https://www.gov.scot/publications/energy-statistics-for-scotland-q1-2025/pages/renewable-electricity-capacity/
+
+19% global growth https://www.openpr.com/news/4485023/green-data-center-market-to-reach-us-211-8-billion-by-2032
+
+11% global rate 
+https://www.fortunebusinessinsights.com/data-center-market-109851
+
 
 ---
 
@@ -82,13 +96,15 @@ Scotland alone has ~12–13GW of installed wind capacity with over 1,000GWh curt
 
 **Idea / Concept**
 
-The core technical architecture, electrical topology, optimisation algorithm concept and specification, and financial model have been completed. No physical prototype or pilot site has been built. The next stage is securing a wind farm partner LOI and commissioning a grid connection feasibility study.
+The core technical architecture, electrical topology, optimisation algorithm concept and specification, and financial model have been completed. Protoype and pilot project planned and will commence in the near future. The next stage is securing a wind farm partner LOI and commissioning a grid connection feasibility study.
 
 ---
 
 ### Progress / Traction
 
-Completed: full technical architecture; EMS algorithm concept and specification; Scottish planning and grid connection regulatory mapping; IP strategy with patent candidate identified; competitive landscape confirming no direct UK competitor; wind farm operator targets identified. Immediate next step: self-funded pilot — purchasing 4 × RTX 5090 GPUs (~£10,000 total) and listing on Vast.ai. Estimated ~$0.40/GPU/hour net (minus electricity cost and 25% vast ai) at 85% occupancy = ~£9,400/year. Real revenue data then opens direct contracted relationships with startups, universities, and AI companies needing reserved capacity. No external funding or filed IP to date.
+Completed: full technical architecture; EMS algorithm concept and specification; Scottish planning and grid connection regulatory mapping; IP strategy with patent candidate identified; competitive landscape confirming no direct UK competitor; wind farm operator targets identified. Immediate next step: self-funded pilot — purchasing 4 × RTX 5090 GPUs and the relevant server components (~£12,500 total) and listing on Vast.ai and other exhanges (we have identified over 5 canidates). Estimated ~$0.40/GPU/hour net (minus electricity cost and 25% vast ai) at 85% occupancy = ~£9,400/year, achieving an excellent ~1.5 year payback period. Real revenue data then opens direct contracted relationships with startups, universities, and AI companies needing reserved capacity. No external funding or filed IP to date.
+
+Vast AI link www.vast.ai
 
 ---
 
@@ -183,7 +199,7 @@ No prior accelerator, incubator, or pre-accelerator participation.
 
 ### Have You Incorporated Your Company?
 
-**No** — plan to incorporate WindEdge Data Centres Ltd via Companies House within the next 6 months, prior to the programme start date if accepted.
+**No** — plan to incorporate WindEdge Data Centres Ltd via Companies House within the next month.
 
 ---
 
@@ -201,7 +217,7 @@ No prior accelerator, incubator, or pre-accelerator participation.
 |-------|--------------|
 | Introductory video | Film with Thomas, Sulayman, Ye, and Linus on camera; upload to Loom or YouTube (unlisted); paste link |
 | Supporting document | Upload business plan PDF to Google Drive; paste link |
-| How long working on idea | Add the real number of weeks for each of you |
+| How long working on idea | 10 weeks |
 | Team confirmation | Confirm with Sulayman, Ye, and Linus before ticking |
 
 ---
