@@ -8,16 +8,16 @@
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#07070f;--card:#0e0e1c;--card2:#14141f;
-  --border:rgba(255,255,255,0.07);--border2:rgba(255,255,255,0.13);
-  --blue:#0ea5e9;--blue-d:rgba(14,165,233,0.12);--blue-b:rgba(14,165,233,0.25);
-  --green:#059669;--green-lt:#34d399;--green-d:rgba(5,150,105,0.11);
+  --bg:#ffffff;--card:#f8fafc;--card2:#f1f5f9;
+  --border:rgba(0,0,0,0.08);--border2:rgba(0,0,0,0.14);
+  --blue:#0ea5e9;--blue-d:rgba(14,165,233,0.08);--blue-b:rgba(14,165,233,0.2);
+  --green:#059669;--green-lt:#059669;--green-d:rgba(5,150,105,0.08);
   --grad:linear-gradient(135deg,#059669,#0ea5e9);
-  --red:rgba(239,68,68,0.11);--red-b:rgba(239,68,68,0.22);
-  --amber:#f59e0b;
-  --t1:#f1f5f9;--t2:#94a3b8;--t3:#475569;--t4:#1e293b;
+  --red:rgba(220,38,38,0.07);--red-b:rgba(220,38,38,0.15);
+  --amber:#d97706;
+  --t1:#0f172a;--t2:#475569;--t3:#94a3b8;--t4:#e2e8f0;
 }
-html,body{background:#020208;font-family:'Inter',sans-serif}
+html,body{background:#eef0f4;font-family:'Inter',sans-serif}
 
 /* ── SLIDE SHELL ──────────────────────────────── */
 .deck{display:flex;flex-direction:column;gap:3px}
@@ -42,7 +42,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
 /* ── TYPOGRAPHY ──────────────────────────────── */
 .eye{font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--blue);margin-bottom:10px}
 .h1{font-size:38px;font-weight:800;letter-spacing:-1.5px;color:var(--t1);line-height:1.08;margin-bottom:6px}
-.h1 em{font-style:normal;color:#34d399}
+.h1 em{font-style:normal;color:#059669}
 .h1--lg{font-size:46px}
 .sub{font-size:15px;color:var(--t2);line-height:1.6;margin-bottom:28px;max-width:700px}
 
@@ -53,13 +53,13 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
 .sg4{grid-template-columns:1fr 1fr 1fr 1fr}
 .sx{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:22px 26px}
 .sx--b{background:var(--blue-d);border-color:var(--blue-b)}
-.sx--g{background:var(--green-d);border-color:rgba(34,197,94,0.2)}
+.sx--g{background:var(--green-d);border-color:rgba(5,150,105,0.2)}
 .sx--r{background:var(--red);border-color:var(--red-b)}
 .sx--a{background:rgba(245,158,11,0.08);border-color:rgba(245,158,11,0.2)}
 .sxn{font-size:42px;font-weight:800;letter-spacing:-2px;color:var(--t1);line-height:1;margin-bottom:7px}
 .sxn--b{color:var(--blue)}
-.sxn--g{color:#34d399}
-.sxn--r{color:#f87171}
+.sxn--g{color:#059669}
+.sxn--r{color:#dc2626}
 .sxn--a{color:var(--amber)}
 .sxl{font-size:13px;color:var(--t2);line-height:1.4;font-weight:500}
 .sxs{font-size:11px;color:var(--t3);margin-top:3px}
@@ -86,11 +86,11 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
 /* ── PHASE CARDS ─────────────────────────────── */
 .phases{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;flex:1}
 .pc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:22px;display:flex;flex-direction:column;gap:10px}
-.pc--b{border-color:rgba(59,130,246,0.3);background:linear-gradient(160deg,rgba(59,130,246,0.07) 0%,var(--card) 100%)}
+.pc--b{border-color:rgba(14,165,233,0.25);background:linear-gradient(160deg,rgba(14,165,233,0.06) 0%,var(--card) 100%)}
 .ptag{display:inline-flex;align-items:center;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;padding:3px 9px;border-radius:4px;width:fit-content}
-.ptag--0{background:rgba(34,197,94,0.12);color:#4ade80;border:1px solid rgba(34,197,94,0.2)}
-.ptag--1{background:var(--blue-d);color:#93c5fd;border:1px solid rgba(59,130,246,0.2)}
-.ptag--2{background:rgba(168,85,247,0.12);color:#c084fc;border:1px solid rgba(168,85,247,0.2)}
+.ptag--0{background:rgba(5,150,105,0.1);color:#059669;border:1px solid rgba(5,150,105,0.25)}
+.ptag--1{background:var(--blue-d);color:#0284c7;border:1px solid rgba(14,165,233,0.25)}
+.ptag--2{background:rgba(124,58,237,0.08);color:#7c3aed;border:1px solid rgba(124,58,237,0.2)}
 .pttl{font-size:15px;font-weight:700;color:var(--t1)}
 .pbdy{font-size:12px;color:var(--t2);line-height:1.5;flex:1}
 .pmet{padding-top:10px;border-top:1px solid var(--border)}
@@ -100,7 +100,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
 /* ── TEAM CARDS ──────────────────────────────── */
 .team{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px}
 .tc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px 20px}
-.ti{width:38px;height:38px;border-radius:9px;background:var(--blue-d);border:1px solid var(--blue-b);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#93c5fd;margin-bottom:11px}
+.ti{width:38px;height:38px;border-radius:9px;background:var(--blue-d);border:1px solid var(--blue-b);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;color:#0284c7;margin-bottom:11px}
 .tn{font-size:13px;font-weight:700;color:var(--t1);margin-bottom:2px}
 .tr{font-size:10px;font-weight:700;color:var(--blue);text-transform:uppercase;letter-spacing:.5px;margin-bottom:9px}
 .tb{font-size:11.5px;color:var(--t2);line-height:1.5}
@@ -129,10 +129,10 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
 .t3s{background:rgba(59,130,246,0.09);border:1px solid rgba(59,130,246,0.18)}
 .t4s{background:rgba(34,197,94,0.07);border:1px solid rgba(34,197,94,0.15)}
 .tb2{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:2px 8px;border-radius:4px;width:68px;text-align:center;flex-shrink:0}
-.t1s .tb2{background:rgba(239,68,68,0.2);color:#fca5a5}
-.t2s .tb2{background:rgba(245,158,11,0.2);color:#fcd34d}
-.t3s .tb2{background:rgba(59,130,246,0.2);color:#93c5fd}
-.t4s .tb2{background:rgba(34,197,94,0.15);color:#86efac}
+.t1s .tb2{background:rgba(220,38,38,0.12);color:#b91c1c}
+.t2s .tb2{background:rgba(217,119,6,0.12);color:#b45309}
+.t3s .tb2{background:rgba(14,165,233,0.12);color:#0284c7}
+.t4s .tb2{background:rgba(5,150,105,0.12);color:#059669}
 .tl{font-size:13px;font-weight:600;color:var(--t1)}
 .ts{font-size:11px;color:var(--t3);margin-left:auto}
 
@@ -146,18 +146,18 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
 
 /* ── PILL BADGES ─────────────────────────────── */
 .pill{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:20px;font-size:11px;font-weight:600;letter-spacing:.3px}
-.pill--b{background:var(--blue-d);border:1px solid var(--blue-b);color:#93c5fd}
+.pill--b{background:var(--blue-d);border:1px solid var(--blue-b);color:#0284c7}
 .pill--g{background:var(--green-d);border:1px solid rgba(5,150,105,0.25);color:var(--green-lt)}
 
 /* ── COVER ───────────────────────────────────── */
-.slide--cov{background:linear-gradient(140deg,#07071a 0%,#0a0a1f 60%,#070715 100%)}
-.cov-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(59,130,246,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(59,130,246,0.04) 1px,transparent 1px);background-size:40px 40px}
-.cov-glow{position:absolute;width:700px;height:700px;background:radial-gradient(circle,rgba(5,150,105,0.1) 0%,rgba(14,165,233,0.07) 50%,transparent 70%);top:-150px;right:-150px;pointer-events:none}
+.slide--cov{background:linear-gradient(140deg,#f0fdf9 0%,#ffffff 60%,#f0f9ff 100%)}
+.cov-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(0,0,0,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,0.04) 1px,transparent 1px);background-size:40px 40px}
+.cov-glow{position:absolute;width:700px;height:700px;background:radial-gradient(circle,rgba(5,150,105,0.08) 0%,rgba(14,165,233,0.05) 50%,transparent 70%);top:-150px;right:-150px;pointer-events:none}
 .cov-inner{position:relative;z-index:1;display:flex;align-items:center;flex:1;padding:0 56px}
 .cov-l{flex:1;padding-right:40px}
-.cov-tag{display:inline-flex;align-items:center;gap:8px;padding:5px 13px;background:var(--blue-d);border:1px solid rgba(59,130,246,0.28);border-radius:20px;font-size:11px;font-weight:600;color:#93c5fd;letter-spacing:.5px;text-transform:uppercase;margin-bottom:24px}
+.cov-tag{display:inline-flex;align-items:center;gap:8px;padding:5px 13px;background:var(--blue-d);border:1px solid rgba(14,165,233,0.25);border-radius:20px;font-size:11px;font-weight:600;color:#0284c7;letter-spacing:.5px;text-transform:uppercase;margin-bottom:24px}
 .cov-h{font-size:50px;font-weight:900;line-height:1.04;letter-spacing:-2.5px;color:var(--t1);margin-bottom:18px}
-.cov-h em{font-style:normal;color:#34d399}
+.cov-h em{font-style:normal;color:#059669}
 .cov-p{font-size:15px;color:var(--t2);line-height:1.65;max-width:460px;margin-bottom:30px}
 .cov-team{display:flex;flex-wrap:wrap;gap:7px}
 .cov-name{font-size:11.5px;color:var(--t3);padding:4px 10px;border:1px solid var(--border2);border-radius:4px}
@@ -166,15 +166,15 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
 .cov-foot{position:absolute;bottom:22px;left:56px;right:56px;display:flex;justify-content:space-between;font-size:11px;color:var(--t3)}
 
 /* ── CLOSE ───────────────────────────────────── */
-.slide--close{background:linear-gradient(160deg,#07071a 0%,#0a0a1f 100%);justify-content:center;align-items:center;text-align:center}
+.slide--close{background:linear-gradient(160deg,#f0fdf9 0%,#f0f9ff 100%);justify-content:center;align-items:center;text-align:center}
 .cl-h{font-size:46px;font-weight:900;letter-spacing:-2px;color:var(--t1);line-height:1.08;margin-bottom:14px}
-.cl-h em{font-style:normal;color:#34d399}
+.cl-h em{font-style:normal;color:#059669}
 .cl-sub{font-size:16px;color:var(--t2);max-width:480px;margin:0 auto 28px;line-height:1.6}
 .cl-c{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .cl-pill{padding:10px 20px;border:1px solid var(--border2);border-radius:8px;font-size:13px;color:var(--t2)}
 
 /* ── BG DECORATION ───────────────────────────── */
-.dot-bg{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,0.03) 1px,transparent 1px);background-size:28px 28px;pointer-events:none}
+.dot-bg{position:absolute;inset:0;background-image:radial-gradient(rgba(0,0,0,0.05) 1px,transparent 1px);background-size:28px 28px;pointer-events:none}
 
 /* ── PRINT ───────────────────────────────────── */
 @media print{
@@ -213,7 +213,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
       </div>
     </div>
     <div class="cov-r">
-      <svg viewBox="0 0 300 700" xmlns="http://www.w3.org/2000/svg" fill="#34d399">
+      <svg viewBox="0 0 300 700" xmlns="http://www.w3.org/2000/svg" fill="#059669">
         <polygon points="141,700 145,192 155,192 159,700"/>
         <rect x="133" y="174" width="44" height="22" rx="5"/>
         <g transform="translate(150,183)">
@@ -252,7 +252,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
     <div class="cols cols2" style="flex:1;align-items:stretch">
       <!-- Left: curtailment -->
       <div style="display:flex;flex-direction:column;gap:12px">
-        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#f87171;margin-bottom:2px">⚡ The Curtailment Crisis</div>
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#dc2626;margin-bottom:2px">⚡ The Curtailment Crisis</div>
         <div class="sg sg3" style="gap:10px">
           <div class="sx sx--r">
             <div class="sxn sxn--r">9 TWh</div>
@@ -278,7 +278,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
         <div class="sg sg3" style="gap:10px">
           <div class="sx sx--a">
             <div class="sxn sxn--a">£140/MWh</div>
-            <div class="sxl">electricity cost for UK data centres</div>
+            <div class="sxl">avg. electricity cost for UK data centres (range: £100–280)</div>
           </div>
           <div class="sx sx--a">
             <div class="sxn sxn--a">40–60%</div>
@@ -318,7 +318,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
         <table class="tbl">
           <thead><tr><th>Operator Type</th><th>Cost / MWh</th></tr></thead>
           <tbody>
-            <tr><td>Typical UK colocation</td><td style="color:#f87171">£140–280</td></tr>
+            <tr><td>Typical UK colocation</td><td style="color:#dc2626">£100–280</td></tr>
             <tr class="hl"><td><strong>WindEdge (curtailed wind)</strong></td><td><strong style="color:var(--green-lt)">PPA cost unknown — but energy prices in high-curtailment regions regularly go negative</strong></td></tr>
           </tbody>
         </table>
@@ -600,20 +600,16 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
         <table class="tbl" style="margin-bottom:14px">
           <thead><tr><th>Cost Item</th><th>WindEdge</th><th>Grid-Connected Competitor</th></tr></thead>
           <tbody>
-            <tr><td>Energy</td><td style="color:var(--green-lt)">PPA cost unknown — prices regularly go negative in curtailment regions</td><td style="color:#f87171">£140–280/MWh</td></tr>
-            <tr><td>Cooling (PUE)</td><td style="color:var(--green-lt)">1.05–1.10</td><td style="color:#f87171">1.40–1.60</td></tr>
-            <tr><td>Transmission charges</td><td style="color:var(--green-lt)">£0 (behind-meter)</td><td style="color:#f87171">£15–25/MWh</td></tr>
-            <tr class="hl"><td>Total effective cost</td><td><strong style="color:var(--green-lt)">~£15–35/MWh</strong></td><td><strong style="color:#f87171">£140–280/MWh</strong></td></tr>
+            <tr><td>Energy</td><td style="color:var(--green-lt)">PPA cost unknown — prices regularly go negative in curtailment regions</td><td style="color:#dc2626">£100–280/MWh</td></tr>
+            <tr><td>Cooling (PUE)</td><td style="color:var(--green-lt)">1.05–1.10</td><td style="color:#dc2626">1.40–1.60</td></tr>
+            <tr><td>Transmission charges</td><td style="color:var(--green-lt)">£0 (behind-meter)</td><td style="color:#dc2626">£15–25/MWh</td></tr>
+            <tr class="hl"><td>Total effective cost</td><td><strong style="color:var(--green-lt)">~£15–35/MWh</strong></td><td><strong style="color:#dc2626">£100–280/MWh</strong></td></tr>
           </tbody>
         </table>
 
-        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--t3);margin-bottom:6px">Phase 0 Pilot</div>
-        <div class="card card--b">
-          <div class="cb" style="font-size:12px">
-            <strong style="color:var(--t1)">4 × RTX 5090 GPUs (~£10,000) + server components (~£2,500) · ~£12,500 total · Vast.ai / RunPod</strong><br>
-            ~$0.40/GPU/hr net · 85% occupancy · ~<strong style="color:var(--blue)">£9,400/year</strong> · ~1.5yr payback<br><br>
-            Self-funded — generates real revenue data before any investor capital is deployed. Transforms the seed conversation from a spreadsheet to operational proof.
-          </div>
+        <div class="card card--b" style="padding:14px 18px">
+          <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--t3);margin-bottom:6px">Phase 0 Pilot</div>
+          <div class="cb" style="font-size:12px"><strong style="color:var(--t1)">4 × RTX 5090 GPUs + server components · ~£12,500 total · Vast.ai / RunPod</strong> · ~$0.40/GPU/hr net · 85% occupancy · ~<strong style="color:var(--blue)">£9,400/year</strong> · ~1.5yr payback. Self-funded — real revenue data before any investor capital is deployed.</div>
         </div>
       </div>
     </div>
@@ -678,7 +674,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
         </table>
 
         <div class="card card--b" style="margin-top:4px">
-          <div class="cb" style="font-size:12px">International analogues validate the model: <strong style="color:var(--t1)">Hydro66</strong> (Sweden, hydro-adjacent, £35m Series B), <strong style="color:var(--t1)">GreenMountain</strong> (Norway, fjord-cooled, PE-backed), <strong style="color:var(--t1)">Borealis</strong> (Iceland, geothermal). UK market is entirely unserved.</div>
+          <div class="cb" style="font-size:12px">International analogues validate the model: <strong style="color:var(--t1)">AtNorth</strong> (Nordic green DC, acquired by Equinix for $4.2bn), <strong style="color:var(--t1)">GreenMountain</strong> (Norway, acquired for $800m), <strong style="color:var(--t1)">EcoDataCenter</strong> (Sweden, €1.8bn raised), <strong style="color:var(--t1)">Hydro66</strong> (Sweden, acquired by Northern Data AG for €31.5m), <strong style="color:var(--t1)">Borealis</strong> (Iceland, geothermal). UK market is entirely unserved.</div>
         </div>
       </div>
     </div>
@@ -711,7 +707,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
             <li style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--t2)"><span style="color:var(--green-lt);flex-shrink:0">✓</span>Scottish planning and grid connection regulatory mapping</li>
             <li style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--t2)"><span style="color:var(--green-lt);flex-shrink:0">✓</span>Competitive landscape analysis — zero UK direct competitors confirmed</li>
             <li style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--t2)"><span style="color:var(--green-lt);flex-shrink:0">✓</span>Wind farm operator target list compiled</li>
-            <li style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--t2)"><span style="color:var(--green-lt);flex-shrink:0">✓</span>IP strategy with prior art search commissioned</li>
+            <li style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--t2)"><span style="color:var(--green-lt);flex-shrink:0">✓</span>IP strategy with patent candidate identified</li>
             <li style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--t2)"><span style="color:var(--green-lt);flex-shrink:0">✓</span>Customer discovery with institutional HPC leads (Imperial College)</li>
             <li style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:var(--t2)"><span style="color:var(--green-lt);flex-shrink:0">✓</span>Financial model with full 5-year P&amp;L projection</li>
           </ul>
@@ -828,7 +824,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
   </div>
   <div class="sb">
     <div class="eye">The Ask</div>
-    <h2 class="h1">£2.4m Seed Round · Target Close Q4 2026</h2>
+    <h2 class="h1">£2.4m Seed Round · Target Close Q1 2027</h2>
     <p class="sub" style="margin-bottom:16px">Raised after the Phase 0 pilot has generated real revenue data — de-risking the investor conversation before it begins.</p>
 
     <div class="cols cols2" style="flex:1;gap:28px">
@@ -864,8 +860,8 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
         </div>
 
         <div class="card">
-          <div class="ct">Comparable Exits</div>
-          <div class="cb" style="font-size:12px"><strong style="color:var(--t1)">Hydro66</strong> £35m Series B · <strong style="color:var(--t1)">Deep Green</strong> £30m Series A · <strong style="color:var(--t1)">Etix Everywhere</strong> €80m raised. Infrastructure fund acquisition at 12–18× EBITDA implies a path to <strong style="color:var(--blue)">£24–36m enterprise value</strong> within 5–7 years.</div>
+          <div class="ct">Market Validation — Comparable Companies</div>
+          <div class="cb" style="font-size:12px"><strong style="color:var(--t1)">AtNorth</strong> acq. by Equinix $4.2bn · <strong style="color:var(--t1)">GreenMountain</strong> acq. for $800m · <strong style="color:var(--t1)">EcoDataCenter</strong> €1.8bn raised · <strong style="color:var(--t1)">Deep Green</strong> £200m raised · <strong style="color:var(--t1)">Etix Everywhere</strong> €200m raised · <strong style="color:var(--t1)">Hydro66</strong> acq. by Northern Data €31.5m. Infrastructure fund acquisition at 12–18× EBITDA implies a path to <strong style="color:var(--blue)">£24–36m enterprise value</strong> within 5–7 years.</div>
         </div>
       </div>
 
@@ -881,7 +877,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
   <div class="dot-bg"></div>
   <div style="position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;padding:56px">
     <div style="font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--blue);margin-bottom:20px">WindEdge Data Centres</div>
-    <h2 class="cl-h">Scotland's Wasted Wind.<br><em>The World's Greenest Compute.</em></h2>
+    <h2 class="cl-h">Scotland's Wasted Wind.<br><em>The UK's Greenest Compute.</em></h2>
     <p class="cl-sub">We are green compute infrastructure for enterprises that turns Scotland's curtailed wind into the UK's cheapest and most verifiably renewable data centre capacity.</p>
 
     <div class="cl-c" style="margin-bottom:28px">
@@ -892,7 +888,7 @@ html,body{background:#020208;font-family:'Inter',sans-serif}
     <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
       <span class="pill pill--b">£2.4m Seed Round Open</span>
       <span class="pill pill--g">SEIS / EIS Eligible</span>
-      <span class="pill pill--b">Q4 2026 Close</span>
+      <span class="pill pill--b">Q1 2027 Close</span>
       <span class="pill pill--g">Zero UK Competitors</span>
     </div>
 
